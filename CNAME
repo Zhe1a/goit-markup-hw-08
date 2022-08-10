@@ -1,1 +1,5 @@
 portfolio.gitt
+git branch -m основний портфель
+git отримати походження
+git branch -u origin/portfolio портфоліо
+git віддалений set-head origin -a
