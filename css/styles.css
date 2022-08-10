@@ -77,6 +77,9 @@ a:hover {
   color: #2196f3;
 }
 /* <!-- Верхня лінія --> */
+.hero>a{
+  color: #757575;
+}
 .hero {
   width: 1600px;
   height: 80px;
@@ -149,6 +152,7 @@ a:hover {
   height: 16px;
   left: 1078px;
   top: 32px;
+  
 }
 .hero_telefon {
   width: 122px;
@@ -170,15 +174,19 @@ a:hover {
 .cap_effektivnost {
   margin: 200px;
   left: 452px; 
-  font-family: "Roboto";
+
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
+  
+  
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  
+  color: #FFFFFF;
 }
 
 .cap_zakazat{
@@ -325,14 +333,20 @@ position: absolute;
 }
 /* <!-- чим ми займаємося  --> */
 .what_we_do {
-  margin: 886px;
+  position: absolute;
+  width: 366px;
+  height: 42px;
+  left: 617px;
+  top: 966px;
   
- margin-left: 580px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+  
   color: #212121;
 }
 .what_we_do_e {
@@ -528,236 +542,59 @@ position: absolute;
 }
 /* портфолія */
 /* секция кнопка */
-.button {
-  width: 100px;
+ul.buttons li{
+  display: inline;
 }
-.button_y {
-  position: absolute;
-  width: 73px;
-  height: 38px;
-  left: 512px;
-  top: 174px;
-  background: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #ffffff;
+.button_s{
+  color: #FFFFFF;
+  background: #2196F3;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 }
-.button_b {
-  position: absolute;
-  width: 125px;
-  height: 38px;
-  left: 593px;
-  top: 174px;
-  background: #f5f4fa;
-  border-radius: 4px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
+.button:focus{
+  background: #2196F3;
+  color: #FFFFFF;
 }
-.button_d {
-  position: absolute;
-  width: 112px;
-  height: 38px;
-  left: 726px;
-  top: 174px;
-  background: #f5f4fa;
-  border-radius: 4px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
+.buttons {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #000000;
 }
-.button_de {
-  position: absolute;
-  width: 103px;
-  height: 38px;
-  left: 846px;
-  top: 174px;
-  background: #f5f4fa;
-  border-radius: 4px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-.button_ma {
-  position: absolute;
-  width: 130px;
-  height: 38px;
-  left: 957px;
-  top: 174px;
-  background: #f5f4fa;
-  border-radius: 4px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-.button > :hover {
-  background: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
-.button > :active {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #ffffff;
+.buttons li>:hover{
+  background: #2196F3;
+color: #FFFFFF;
 }
 /* секция портфолія */
-.line {
-  /* position: absolute;
-  width: 1600px;
-  height: 0px;
-  left: 0px;
-  top: 80px;
-  border: 1px solid #ececec;
-  position: absolute;
-  background: #ffffff; */
-}
 .technocrat_e {
-  margin: 56px;
+  display: inline;
+  box-sizing: border-box; 
 }
-.technocrat {
-  box-sizing: border-box;
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 262px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-}
-.poster {
-  box-sizing: border-box;
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 615px;
-  top: 262px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-}
-.restaurant {
-  box-sizing: border-box;
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 1015px;
-  top: 262px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-}
-.project {
-  box-sizing: border-box;
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 696px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-}
-.boxes {
-  box-sizing: border-box;
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 615px;
-  top: 696px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-}
-.Inspiration_has {
-  box-sizing: border-box;
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 1015px;
-  top: 696px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-}
-.edition {
-  box-sizing: border-box;
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 1130px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-}
-.lab {
-  box-sizing: border-box;
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 615px;
-  top: 1130px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-}
-.growing {
-  box-sizing: border-box;
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 1015px;
-  top: 1130px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-}
-.tech {
-  font-family: "Roboto";
-  font-style: normal;
+.tech{
+  font-family: 'Roboto';
   font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 0.06em;
-  color: #212121;
-  left: 24px;
-  position: absolute;
+letter-spacing: 0.06em;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
 }
-.techer {
-  font-family: "Roboto";
-  font-style: normal;
+.techer{
+  font-family: 'Roboto';
   font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
-  color: #757575;
-  position: absolute;
-  top: 330px;
-  left: 24px;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.technocrat_e li {
+  float: left;
+  list-style: none;
+  box-sizing: border-box;
+  background: #FFFFFF;
+border: 1px solid #EEEEEE;
 }
