@@ -56,13 +56,10 @@ a {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
-.container {
-  width: 1600px;
-  height: 252px;
-}
+
 li {
   list-style: none;
 }
@@ -83,6 +80,8 @@ a:hover {
 .hero {
   width: 1600px;
   height: 80px;
+  background: #ffffff;
+  border: 1px solid #ececec;
   background: #ffffff;
 }
 .hero_webstudio {
@@ -169,7 +168,8 @@ a:hover {
   background: #2f303a;
 }
 .cap_effektivnost {
-  padding: 200px;
+  margin: 200px;
+  left: 452px; 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -180,11 +180,13 @@ a:hover {
   text-transform: uppercase;
   color: #ffffff;
 }
-.cap {
-}
 
+.cap_zakazat{
+
+
+}
 .cap_zakazat {
-  position: absolute;
+position: absolute;
   width: 216px;
   height: 50px;
   left: 692px;
@@ -323,14 +325,10 @@ a:hover {
 }
 /* <!-- чим ми займаємося  --> */
 .what_we_do {
-  position: absolute;
-  width: 366px;
-  height: 42px;
-  left: 617px;
-  top: 966px;
+  margin: 886px;
+  width: 436px; 
+ margin-left: 580px;
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -364,21 +362,22 @@ a:hover {
 }
 /* <!-- Наша команда --> */
 .our_times {
-  position: absolute;
-  width: 264px;
-  height: 42px;
-  left: 668px;
-  margin-top: 94px;
+  
+  margin:50px ;
+  width: 436px; 
+  margin-left: 550px;
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.05em;
   color: #212121;
+
+
 }
 .our_time {
+  padding: 30px; ;
   position: absolute;
   width: 1600px;
   height: 648px;
@@ -387,7 +386,7 @@ a:hover {
   background: #f5f4fa;
 }
 .our_timeq {
-  position: absolute;
+position: absolute;
   width: 270px;
   height: 368px;
   left: 215px;
@@ -398,8 +397,8 @@ a:hover {
   border-radius: 0px 0px 4px 4px;
 }
 .our_time_q {
+  margin: 10px;
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -408,8 +407,8 @@ a:hover {
   color: #212121;
 }
 .ur_time__r {
+  padding: 5px;
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -418,7 +417,7 @@ a:hover {
   color: #757575;
 }
 .our_timew {
-  position: absolute;
+ position: absolute;
   width: 270px;
   height: 368px;
   left: 515px;
@@ -640,14 +639,14 @@ a:hover {
 }
 /* секция портфолія */
 .line {
-  position: absolute;
+  /* position: absolute;
   width: 1600px;
   height: 0px;
   left: 0px;
   top: 80px;
   border: 1px solid #ececec;
   position: absolute;
-  background: #ffffff;
+  background: #ffffff; */
 }
 .technocrat_e {
   margin: 56px;
