@@ -326,7 +326,7 @@ position: absolute;
 /* <!-- чим ми займаємося  --> */
 .what_we_do {
   margin: 886px;
-  width: 436px; 
+  
  margin-left: 580px;
   font-family: "Roboto";
   font-size: 36px;
@@ -362,10 +362,7 @@ position: absolute;
 }
 /* <!-- Наша команда --> */
 .our_times {
-  
   margin:50px ;
-  width: 436px; 
-  margin-left: 550px;
   font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
