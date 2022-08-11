@@ -44,56 +44,84 @@ img {
   max-width: 100%;
   display: block;
 }
+
 input,
 button,
 textarea,
 select {
   font: inherit;
 }
+
 a {
   text-decoration: none;
 }
+
 body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.container,
+.hero {
+  width: 1200px;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 /* <!-- Верхня лінія --> */
+.herov {
+  padding: 24px;
+  /* vertical-align: middle; */
+}
+
 .hero {
-  align-items: center;
-  justify-self: line ;
-  display: flex;
+  outline: 1px solid rgb(98, 44, 168);
+  margin-top: 0;
+  margin-bottom: 0%;
   width: 1600px;
   height: 80px;
   background: #ffffff;
   border: 1px solid #ececec;
   background: #ffffff;
 }
-.hero_webstudio{
-  padding-top: 24px;
-  padding-left: 215px;
-}
+
+.hero_webstudio {}
+
 .hero ul {
-  
+  margin-bottom: 0;
+  margin-top: 0;
+  outline: 1px solid rgb(232, 232, 233);
   display: inline;
-  padding-left: 120px;
-  padding-top: 32px;
+  /* vertical-align: middle; */
+  padding: 104px;
 }
+
 .hero li {
-  
+  margin-bottom: 0;
+  margin-top: 0;
   padding: 50px;
+  outline: 1px solid rgb(97, 20, 197);
+  /* vertical-align: middle; */
   align-self: auto;
   display: inline;
 }
+
 .hero_studios li>a {
   color: #212121;
 }
+
 .hero li>:hover {
   color: #2196F3;
 }
+
 .hero_studio>:visited {
   color: #2196f3;
 }
+
 .hero_webstudio {
   font-family: "Raleway";
   font-style: normal;
@@ -129,19 +157,26 @@ body {
 }
 
 /* <!-- Шапка --> */
-.cap { 
-  position: absolute;
+.cap {
+
   width: 1600px;
   height: 600px;
-  top: 80px;
   background: #2f303a;
 }
 
+.capz {
+  padding: 200px 452px;
+  text-align: center;
+
+}
+
 .cap_effektivnost {
+
+  margin-bottom: 30px;
+  margin-top: 0;
+
+  width: 696px;
   height: 120px;
-  width: 695px;
-  margin-top: 200px;
-margin-left: 452px; ;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
@@ -152,37 +187,58 @@ margin-left: 452px; ;
   text-transform: uppercase;
   color: #FFFFFF;
 }
+
+.cap_effektivnost {}
+
 .cap_zakazat {
-  margin-top: 30px;
-  margin-left: 692px;
+
+  display: inline-block;
+
   color: #ffffff;
   background: #2f303a;
-  width: 216px;
-height: 50px;
-left: 692px;
-top: 430px;
+  padding: 10px 32px;
+  max-width: fit-content;
 }
+
 .cap_zakazat:hover {
- 
+
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
 /* <!-- особливості --> */
-.ocobluvi{
-  margin-top: 94;
-  flex-direction: column;
+.ocobluvi {
 
-  position: absolute;
-width: 270px;
-height: 16px;
-left: 515px;
-top: 774px;
+  display: inline-block;
+  display: flex;
+  margin-left: 215px;
 }
 
 .osobennosti_warning {
- 
+  margin-bottom: 10px;
+}
+
+.ocobluvi>p {
+
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.ocobluvi>li {
+  outline: color rgb(155, 7, 7);
+  margin-top: 120px;
+  padding: 30px;
+  margin-bottom: 118px;
+}
+
+.ocobluvi>li:nth-child(3) {
+  height: 76px;
+}
+
+.osobennosti_warning {
+  width: 270px;
+  height: 16px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -190,33 +246,11 @@ top: 774px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #212121;
 }
 
 .osobennosti_idea {
-  
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-
-.punctuality {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
-}
-
-.punctuality_task {
+  width: 270px;
 
   font-family: "Roboto";
   font-style: normal;
@@ -225,58 +259,31 @@ top: 774px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
-}
-
-.planning {
- 
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
-}
-
-.planning_consultation {
- 
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-
-.modern {
- 
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
-}
-
-.modern_value {
- 
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #757575;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 /* <!-- чим ми займаємося  --> */
-.what_we_do {
-  
+.what_we {}
 
+.what_we>li {
+
+  padding: 15px;
+  display: inline-block;
+
+}
+
+.what_we_d {
+  padding-left: 215px;
+  margin-top: 118px;
+  margin-bottom: 0;
+  margin-top: 0;
+
+  display: inline-block;
+}
+
+.what_we_do {
+  margin-bottom: 50px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -284,29 +291,17 @@ top: 774px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
+  /* width: 366px;
+height: 42px; */
 }
 
-.what_we_do_e {
-  
-  background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
-  mix-blend-mode: normal;
-}
-
-.what_we_do_q {
-  
-  background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
-}
-
-.what_we_do_w {
-  
-  background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
-}
 
 /* <!-- Наша команда --> */
 .our_times {
- 
+  padding-left: 68px;
+  padding-top: 94px;
+  padding-bottom: 50px;
   font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
@@ -314,17 +309,29 @@ top: 774px;
   text-align: center;
   letter-spacing: 0.05em;
   color: #212121;
+}
 
+.our_time ul {
+  margin-left: 215px;
+  margin-bottom: 202px;
+}
+
+.our_time li {
+  display: inline-block;
+  margin: 15px;
+  margin-bottom: 202px;
 
 }
 
 .our_time {
-  
   background: #f5f4fa;
+  width: 1600px;
+  height: 648px;
+
 }
 
 .our_timeq {
- 
+
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -332,7 +339,7 @@ top: 774px;
 }
 
 .our_time_q {
-  margin: 10px;
+  padding-top: 30px;
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
@@ -343,7 +350,8 @@ top: 774px;
 }
 
 .ur_time__r {
-  padding: 5px;
+  padding-bottom: 30px;
+  padding-top: 10px;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
@@ -354,7 +362,7 @@ top: 774px;
 }
 
 .our_timew {
-  
+
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -362,7 +370,7 @@ top: 774px;
 }
 
 .our_timee {
-  
+
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -370,7 +378,7 @@ top: 774px;
 }
 
 .our_timer {
-  
+
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -379,12 +387,12 @@ top: 774px;
 
 /* <!-- нижня лінія --> */
 .bottom_line {
-  
+
   background: #2f303a;
 }
 
 .webstudio {
-  
+
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -405,7 +413,7 @@ top: 774px;
 }
 
 .bottom_line_addres {
-  
+
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -427,7 +435,7 @@ top: 774px;
 }
 
 .bottom_line_mail {
- 
+
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -437,7 +445,7 @@ top: 774px;
 }
 
 .bottom_line_telefon {
- 
+
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -485,9 +493,11 @@ ul.button li {
   display: inline;
   box-sizing: border-box;
 }
+
 .tech li {
   margin-left: px;
 }
+
 .tech {
   font-family: 'Roboto';
   font-weight: 700;
@@ -497,7 +507,7 @@ ul.button li {
   letter-spacing: 0.06em;
   color: #212121;
 
-  
+
 }
 
 .techer {
