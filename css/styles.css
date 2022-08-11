@@ -12,6 +12,7 @@ ul,
 ol {
   padding: 0;
 }
+
 body,
 h1,
 h2,
@@ -43,88 +44,73 @@ img {
   max-width: 100%;
   display: block;
 }
-
 input,
 button,
 textarea,
 select {
   font: inherit;
 }
-
 a {
   text-decoration: none;
 }
-
 body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
 
-li {
-  list-style: none;
-}
-/* * {
-  box-sizing: border-box;
-} */
 /* <!-- Верхня лінія --> */
-.hero_studios li{
-  display: inline;
-  padding: 50px;
-}
-.hero ul{
-  /* display: inline; */
-  
-  align-items: baseline;
-
-}
-/* .hero_webstudi:last-child{}
-.hero_mai:last-child{
-margin-top: 28px;
-} */
-.hero_mai li{
-  align-self:auto;
-  display: inline;
-  position: 5px;
-  padding: 50px;
-}
-.hero_studios li>a{
-  color: #212121;
-}
-.hero li>:hover{
-  color: #2196F3;
-}
-.hero_studio>:visited{
-  color: #2196f3;
-}
 .hero {
-  flex-wrap: wrap;
-  align-items: flex-end;
- justify-self: inline;
+  align-items: center;
+  justify-self: line ;
   display: flex;
-  justify-content: space-evenly;
-
   width: 1600px;
   height: 80px;
   background: #ffffff;
   border: 1px solid #ececec;
   background: #ffffff;
 }
+.hero_webstudio{
+  padding-top: 24px;
+  padding-left: 215px;
+}
+.hero ul {
+  
+  display: inline;
+  padding-left: 120px;
+  padding-top: 32px;
+}
+.hero li {
+  
+  padding: 50px;
+  align-self: auto;
+  display: inline;
+}
+.hero_studios li>a {
+  color: #212121;
+}
+.hero li>:hover {
+  color: #2196F3;
+}
+.hero_studio>:visited {
+  color: #2196f3;
+}
 .hero_webstudio {
-
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #212121 ;
+  color: #212121;
 }
+
 .hero_webstudi {
   color: #2196f3;
 }
+
 .hero_portfolioo,
 .hero_studios,
-.hero_studio{
+.hero_studio {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -133,72 +119,70 @@ margin-top: 28px;
   letter-spacing: 0.02em;
   font-style: initial;
 }
-.hero_mai li>a{
+
+.hero_mai li>a {
   color: #757575;
 }
-.hero_portfolioo>:visited{
+
+.hero_portfolioo>:visited {
   color: #2196f3;
 }
+
 /* <!-- Шапка --> */
-.cap {
-  margin-bottom: auto;
-  padding: auto;
+.cap { 
   position: absolute;
   width: 1600px;
   height: 600px;
-  left: 0px;
   top: 80px;
   background: #2f303a;
 }
-.cap_effektivnost {
-  margin: 200px;
-  left: 452px; 
 
+.cap_effektivnost {
+  height: 120px;
+  width: 695px;
+  margin-top: 200px;
+margin-left: 452px; ;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  
-  
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  
   color: #FFFFFF;
 }
-
-.cap_zakazat{
-
-
-}
 .cap_zakazat {
-position: absolute;
-  width: 216px;
-  height: 50px;
-  left: 692px;
-  top: 450px;
+  margin-top: 30px;
+  margin-left: 692px;
   color: #ffffff;
   background: #2f303a;
+  width: 216px;
+height: 50px;
+left: 692px;
+top: 430px;
 }
 .cap_zakazat:hover {
-  position: absolute;
-  width: 216px;
-  height: 50px;
-  left: 692px;
-  top: 450px;
+ 
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
+
 /* <!-- особливості --> */
+.ocobluvi{
+  margin-top: 94;
+  flex-direction: column;
+
+  position: absolute;
+width: 270px;
+height: 16px;
+left: 515px;
+top: 774px;
+}
+
 .osobennosti_warning {
-  position: absolute;
-  width: 270px;
-  height: 16px;
-  left: 215px;
-  top: 774px;
-
+ 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -209,12 +193,9 @@ position: absolute;
 
   color: #212121;
 }
+
 .osobennosti_idea {
-  position: absolute;
-  width: 270px;
-  height: 72px;
-  left: 215px;
-  top: 800px;
+  
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -223,12 +204,8 @@ position: absolute;
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 .punctuality {
-  position: absolute;
-  width: 270px;
-  height: 16px;
-  left: 515px;
-  top: 774px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -238,12 +215,9 @@ position: absolute;
   text-transform: uppercase;
   color: #212121;
 }
+
 .punctuality_task {
-  position: absolute;
-  width: 270px;
-  height: 48px;
-  left: 515px;
-  top: 800px;
+
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -252,12 +226,9 @@ position: absolute;
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 .planning {
-  position: absolute;
-  width: 270px;
-  height: 16px;
-  left: 815px;
-  top: 774px;
+ 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -267,12 +238,9 @@ position: absolute;
   text-transform: uppercase;
   color: #212121;
 }
+
 .planning_consultation {
-  position: absolute;
-  width: 270px;
-  height: 48px;
-  left: 815px;
-  top: 800px;
+ 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -281,12 +249,9 @@ position: absolute;
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 .modern {
-  position: absolute;
-  width: 270px;
-  height: 16px;
-  left: 1115px;
-  top: 774px;
+ 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -296,12 +261,9 @@ position: absolute;
   text-transform: uppercase;
   color: #212121;
 }
+
 .modern_value {
-  position: absolute;
-  width: 270px;
-  height: 72px;
-  left: 1115px;
-  top: 800px;
+ 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -310,14 +272,11 @@ position: absolute;
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 /* <!-- чим ми займаємося  --> */
 .what_we_do {
-  position: absolute;
-  width: 366px;
-  height: 42px;
-  left: 617px;
-  top: 966px;
   
+
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -325,37 +284,29 @@ position: absolute;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  
+
   color: #212121;
 }
+
 .what_we_do_e {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 215px;
-  top: 1058px;
+  
   background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
   mix-blend-mode: normal;
 }
+
 .what_we_do_q {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 615px;
-  top: 1058px;
+  
   background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
 }
+
 .what_we_do_w {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 1015px;
-  top: 1058px;
+  
   background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
 }
+
 /* <!-- Наша команда --> */
 .our_times {
-  margin:50px ;
+ 
   font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
@@ -366,26 +317,20 @@ position: absolute;
 
 
 }
+
 .our_time {
-  padding: 30px; ;
-  position: absolute;
-  width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1446px;
+  
   background: #f5f4fa;
 }
+
 .our_timeq {
-position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 215px;
-  top: 186px;
+ 
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
 .our_time_q {
   margin: 10px;
   font-family: "Roboto";
@@ -396,6 +341,7 @@ position: absolute;
   letter-spacing: 0.03em;
   color: #212121;
 }
+
 .ur_time__r {
   padding: 5px;
   font-family: "Roboto";
@@ -406,54 +352,39 @@ position: absolute;
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 .our_timew {
- position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 515px;
-  top: 186px;
+  
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
 .our_timee {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 815px;
-  top: 186px;
+  
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
 .our_timer {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 1115px;
-  top: 186px;
+  
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
 /* <!-- нижня лінія --> */
 .bottom_line {
-  position: absolute;
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2094px;
+  
   background: #2f303a;
 }
+
 .webstudio {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 60px;
+  
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -462,6 +393,7 @@ position: absolute;
   letter-spacing: 0.03em;
   color: #ffffff !important;
 }
+
 .webstudi {
   font-family: "Raleway";
   font-style: normal;
@@ -471,12 +403,9 @@ position: absolute;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
+
 .bottom_line_addres {
-  position: absolute;
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 111px;
+  
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -484,21 +413,21 @@ position: absolute;
   line-height: 24px;
   letter-spacing: 0.03em;
 }
+
 .bottom_line_telefon a {
   color: rgba(255, 255, 255, 0.6);
 }
+
 .bottom_line_mail a {
   color: rgba(255, 255, 255, 0.6);
 }
+
 .bottom_line_addres a {
   color: #ffffff;
 }
+
 .bottom_line_mail {
-  position: absolute;
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 141px;
+ 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -506,12 +435,9 @@ position: absolute;
   line-height: 24px;
   letter-spacing: 0.03em;
 }
+
 .bottom_line_telefon {
-  position: absolute;
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 171px;
+ 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -519,62 +445,74 @@ position: absolute;
   line-height: 24px;
   letter-spacing: 0.03em;
 }
+
 /* портфолія */
 /* секция кнопка */
 
-ul.button li{
+ul.button li {
   display: inline;
   border-radius: 4px;
- 
+
 }
-.button_s{
+
+.button_s {
   color: #FFFFFF;
   background: #2196F3;
 }
-.button:focus{
+
+.button:focus {
   background: #F5F4FA;
 }
+
 .button {
-  outline:;
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-letter-spacing: 0.03em;
-color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #000000;
 }
-.button li>:hover{
+
+.button li>:hover {
   background: #2196F3;
-color: #FFFFFF;
+  color: #FFFFFF;
 }
+
 /* секция портфолія */
 .technocrat_e {
   display: inline;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
-.tech{
+.tech li {
+  margin-left: px;
+}
+.tech {
   font-family: 'Roboto';
   font-weight: 700;
-letter-spacing: 0.06em;
-font-size: 18px;
-line-height: 36px;
-letter-spacing: 0.06em;
-color: #212121;
+  letter-spacing: 0.06em;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+
+  
 }
-.techer{
+
+.techer {
   font-family: 'Roboto';
   font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.03em;
-color: #757575;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
+
 .technocrat_e li {
   float: left;
   list-style: none;
   box-sizing: border-box;
   background: #FFFFFF;
-border: 1px solid #EEEEEE;
+  border: 1px solid #EEEEEE;
 }
