@@ -61,42 +61,58 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
 }
-
-
+.container {
+  max-width: 1200px;
+  width: 100%;
+  height: 94px;
+ /* padding-right: 15px; */
+/* padding-left: 15px; */
+  margin: 0 auto;
+/* background-color: #01101b; */
+min-width: 1200px;
+ }
 /* <!-- Верхня лінія --> */
-.line {
 
+
+.line {
+  
   outline: 1px solid rgb(98, 44, 168);
-  width: 1600px;
+  
   height: 80px;
-  background: #ffffff;
   border: 1px solid #ececec;
-  background: #ffffff;
+  
 }
 .lines {
-  flex-direction:row ;
-  align-self: center;
- width: 1200px;
-justify-content: center;
-align-items: center;
-display: flex;
 
-}
-.lines ul {
-display: flex;
- display: contents;
- display: inline-block;
-padding-left: 94px;
-
-}
-
-.lines ul {
+ padding-top: 24px;
  display: flex;
-  padding-right: 30px;
+align-items: baseline;
+
+}
+
+
+.lines ul {
+  padding-right: 334px;
+display: inline;
+}
+ .line_mai ul:nth-child(2n) {
+  padding-left: 0px;
+}
+.lines li {
+  padding-right: 50px;
+display: inline;
+}
+.lines li:last-child {
+  padding-right: 0px;
+}
+.line_webstudi {
+  /* padding-left: 93px; */
+}
+.line_mai {
+  /* justify-content:flex-end ; */
 }
 .line_webstudio {
- display: inline-block;
- padding-left: 242px;
+  padding-right: 93px;
 }
 .line_studioss li>a {
   color: #212121;
@@ -111,7 +127,8 @@ padding-left: 94px;
 }
 
 .line_webstudio {
- 
+
+
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -124,7 +141,7 @@ padding-left: 94px;
 .line_webstudi {
   color: #2196f3;
 }
-.line_portfolioo,.hero
+.line_portfolioo,
 .line_portfolioo,
 .line_studios,
 .line_studio {
@@ -146,25 +163,23 @@ padding-left: 94px;
 
 /* <!-- Шапка --> */
 .cap {
-background-image:linear-gradient(rgba(47, 48, 58, 0.4)rgba(47, 48, 58, 0.4))url(../photo/Hero.jpg);
-background-position: 20px;
+/* background-image:linear-gradient(rgba(47, 48, 58, 0.4)rgba(47, 48, 58, 0.4))url(../photo/Hero.jpg);
+background-position: 20px; */
 }
 .cap {
-  width: 1600px;
-  height: 600px;
+ height: 600px;
+  background: #422929;
 }
 
-.capz {
-  padding: 200px 452px;
-  text-align: center;
-
+.capz  {
+padding-left:452px;
+padding-top: 200px;
+margin-bottom: 0;
+/* margin-top: 200px; */
+margin-bottom: 0;
 }
 
 .cap_effektivnost {
-
-  margin-bottom: 30px;
-  margin-top: 0;
-
   width: 696px;
   height: 120px;
   font-family: 'Roboto';
@@ -181,9 +196,8 @@ background-position: 20px;
 .cap_effektivnost {}
 
 .cap_zakazat {
-
-  display: inline-block;
-
+margin-left:225px;
+margin-top: 30px;
   color: #ffffff;
   background: #2f303a;
   padding: 10px 32px;
@@ -198,27 +212,30 @@ background-position: 20px;
 }
 
 /* <!-- особливості --> */
+.octiw {
+  /* margin-left: 0px; */
+  /* text-align: center; */
+  padding-left: 215px;
+  padding-top: 94px;
+}
 .ocobluvi {
-
-  display: inline-block;
+  justify-content: center;
   display: flex;
-  margin-left: 215px;
 }
 
 .osobennosti_warning {
   margin-bottom: 10px;
 }
-
-.ocobluvi>p {
-
-  margin: 10px 0;
-  padding: 5px;
+.ocobluvi li{
+  padding-right: 30px;
 }
-
+.ocobluvi li:last-child {
+  padding-right: 0;
+}
 .ocobluvi>li {
   outline: color rgb(155, 7, 7);
   margin-top: 120px;
-  padding: 30px;
+  /* padding: 30px; */
   margin-bottom: 118px;
 }
 
@@ -238,7 +255,7 @@ background-position: 20px;
 
 .osobennosti_idea {
   width: 270px;
-
+  height: 72px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -251,39 +268,38 @@ background-position: 20px;
 }
 
 /* <!-- чим ми займаємося  --> */
-.line_studio:not(:last-child) {
-  margin-right: 30px;
+
+.what_we>li {
+  padding-right: 30px;
 }
-.what_we_d ul {
-  /* display: inline-block; */
-/* padding-left: 215px; */
-display: inline-flex;
-/* padding-left: 215px; */
-margin-left: 215px;
-padding-bottom: 94px;
-} 
+.what_we li:last-child {
+  padding-right: 0;
+}
+.what_we {
+  display: flex;
+justify-content: center;
 
-.what_we li {
-
-  padding: 15px;
-  display: inline-block;
-
+}
+.what_t {
+  text-align: center;
 }
 .what_we_do_q {
   width: 370px;
 height: 294px;
 }
-.what_we_d {
+.what_we_do {
+
+}
+.what_we_do {
   padding-left: 0px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 50px;
   margin-top: 0;
   padding-top: 0px;
 }
 
 .what_we_do {
-  padding-left: 617px;
-  margin-bottom: 50px;
+  
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -292,15 +308,13 @@ height: 294px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  width: 366px;
-height: 42px;
+  
 
 }
 
 
 /* <!-- Наша команда --> */
 .our_times {
-  padding-left: 668px;
   padding-top: 94px;
   padding-bottom: 50px;
   font-family: "Roboto";
@@ -312,22 +326,20 @@ height: 42px;
   color: #212121;
 }
 
-.our_time ul {
-  margin-left: 215px;
-  margin-bottom: 202px;
-}
+
 
 .our_time li {
   display: inline-block;
-  margin: 15px;
-  margin-bottom: 202px;
+
+margin-left: 30px;
+  margin-bottom: 202px; 
 
 }
 .our_tim {
-  display: inline-block;
+  text-align: center;
 }
 .our_time {
-
+margin-left: 178px;
   background: #f5f4fa;
   width: 1600px;
   height: 648px;
@@ -374,11 +386,13 @@ height: 42px;
 
 /* <!-- нижня лінія --> */
 .bottom_line {
+  margin-top: 94px;
   width: 1600px;
   height: 252px;
   background: #2f303a;
 }
 .bottom_lin {
+  justify-content: flex-start;
   display: inline-block;
   padding-top: 50px;
   padding-left: 215px; ;
@@ -454,14 +468,11 @@ padding-bottom: 9px;
 ul.button li {
   display: inline;
   border-radius: 4px;
-
 }
-
 .button_s {
   color: #FFFFFF;
   background: #2196F3;
 }
-
 .button:focus {
   background: #F5F4FA;
 }
@@ -483,9 +494,8 @@ ul.button li {
 }
 
 /* секция портфолія */
-.technocrat_e {
-  display: inline;
-  box-sizing: border-box;
+.tec {
+ 
 }
 
 .tech li {
@@ -512,11 +522,28 @@ ul.button li {
   letter-spacing: 0.03em;
   color: #757575;
 }
-
+.technocrat_e li:nth-child(3n) {
+margin-right: 0;
+}
 .technocrat_e li {
-  float: left;
+ margin-right: 30px;
+ margin-top: 30px;
+  /* display: flex; */
+  /* align-items: center; */
+/* justify-content: center; */
+  /* float: left; */
   list-style: none;
   box-sizing: border-box;
   background: #FFFFFF;
   border: 1px solid #EEEEEE;
+}
+.technocrat_e{
+/* margin-top: 50px; */
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+
+.bo_lin {
+  margin-top:   1194px;
 }
