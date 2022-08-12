@@ -62,67 +62,56 @@ body {
   margin: 0;
 }
 
-.container,
-.hero {
-  width: 1200px;
-
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-bottom: 0;
-  margin-top: 0;
-}
 
 /* <!-- Верхня лінія --> */
-.herov {
-  padding: 24px;
-  /* vertical-align: middle; */
-}
+.line {
 
-.hero {
   outline: 1px solid rgb(98, 44, 168);
-  margin-top: 0;
-  margin-bottom: 0%;
   width: 1600px;
   height: 80px;
   background: #ffffff;
   border: 1px solid #ececec;
   background: #ffffff;
 }
+.lines {
+  flex-direction:row ;
+  align-self: center;
+ width: 1200px;
+justify-content: center;
+align-items: center;
+display: flex;
 
-.hero_webstudio {}
+}
+.lines ul {
+display: flex;
+ display: contents;
+ display: inline-block;
+padding-left: 94px;
 
-.hero ul {
-  margin-bottom: 0;
-  margin-top: 0;
-  outline: 1px solid rgb(232, 232, 233);
-  display: inline;
-  /* vertical-align: middle; */
-  padding: 104px;
 }
 
-.hero li {
-  margin-bottom: 0;
-  margin-top: 0;
-  padding: 50px;
-  outline: 1px solid rgb(97, 20, 197);
-  /* vertical-align: middle; */
-  align-self: auto;
-  display: inline;
+.lines ul {
+ display: flex;
+  padding-right: 30px;
 }
-
-.hero_studios li>a {
+.line_webstudio {
+ display: inline-block;
+ padding-left: 242px;
+}
+.line_studioss li>a {
   color: #212121;
 }
 
-.hero li>:hover {
+.line li>:hover {
   color: #2196F3;
 }
 
-.hero_studio>:visited {
+.line_studio>:visited {
   color: #2196f3;
 }
 
-.hero_webstudio {
+.line_webstudio {
+ 
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -132,36 +121,37 @@ body {
   color: #212121;
 }
 
-.hero_webstudi {
+.line_webstudi {
   color: #2196f3;
 }
-
-.hero_portfolioo,
-.hero_studios,
-.hero_studio {
+.line_portfolioo,.hero
+.line_portfolioo,
+.line_studios,
+.line_studio {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  font-style: initial;
 }
 
-.hero_mai li>a {
+.line_mai li>a {
   color: #757575;
 }
 
-.hero_portfolioo>:visited {
+.line_portfolioo>:visited {
   color: #2196f3;
 }
 
 /* <!-- Шапка --> */
 .cap {
-
+background-image:linear-gradient(rgba(47, 48, 58, 0.4)rgba(47, 48, 58, 0.4))url(../photo/Hero.jpg);
+background-position: 20px;
+}
+.cap {
   width: 1600px;
   height: 600px;
-  background: #2f303a;
 }
 
 .capz {
@@ -232,9 +222,6 @@ body {
   margin-bottom: 118px;
 }
 
-.ocobluvi>li:nth-child(3) {
-  height: 76px;
-}
 
 .osobennosti_warning {
   width: 270px;
@@ -264,25 +251,38 @@ body {
 }
 
 /* <!-- чим ми займаємося  --> */
-.what_we {}
+.line_studio:not(:last-child) {
+  margin-right: 30px;
+}
+.what_we_d ul {
+  /* display: inline-block; */
+/* padding-left: 215px; */
+display: inline-flex;
+/* padding-left: 215px; */
+margin-left: 215px;
+padding-bottom: 94px;
+} 
 
-.what_we>li {
+.what_we li {
 
   padding: 15px;
   display: inline-block;
 
 }
-
+.what_we_do_q {
+  width: 370px;
+height: 294px;
+}
 .what_we_d {
-  padding-left: 215px;
-  margin-top: 118px;
-  margin-bottom: 0;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   margin-top: 0;
-
-  display: inline-block;
+  padding-top: 0px;
 }
 
 .what_we_do {
+  padding-left: 617px;
   margin-bottom: 50px;
   font-family: 'Roboto';
   font-style: normal;
@@ -292,14 +292,15 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  /* width: 366px;
-height: 42px; */
+  width: 366px;
+height: 42px;
+
 }
 
 
 /* <!-- Наша команда --> */
 .our_times {
-  padding-left: 68px;
+  padding-left: 668px;
   padding-top: 94px;
   padding-bottom: 50px;
   font-family: "Roboto";
@@ -322,8 +323,11 @@ height: 42px; */
   margin-bottom: 202px;
 
 }
-
+.our_tim {
+  display: inline-block;
+}
 .our_time {
+
   background: #f5f4fa;
   width: 1600px;
   height: 648px;
@@ -360,35 +364,24 @@ height: 42px; */
   letter-spacing: 0.03em;
   color: #757575;
 }
-
-.our_timew {
-
+.our_time li {
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.our_timee {
-
-  background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.our_timer {
-
-  background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
 
 /* <!-- нижня лінія --> */
 .bottom_line {
-
+  width: 1600px;
+  height: 252px;
   background: #2f303a;
+}
+.bottom_lin {
+  display: inline-block;
+  padding-top: 50px;
+  padding-left: 215px; ;
 }
 
 .webstudio {
@@ -413,7 +406,8 @@ height: 42px; */
 }
 
 .bottom_line_addres {
-
+padding-top: 20px;
+padding-bottom: 9px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -435,7 +429,7 @@ height: 42px; */
 }
 
 .bottom_line_mail {
-
+padding-bottom: 9px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
