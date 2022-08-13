@@ -62,57 +62,41 @@ body {
   margin: 0;
 }
 .container {
-  max-width: 1200px;
-  width: 100%;
+  
+  width: 1200px;
   height: 94px;
- /* padding-right: 15px; */
-/* padding-left: 15px; */
+ padding-right: 15px;
+padding-left: 15px;
   margin: 0 auto;
-/* background-color: #01101b; */
-min-width: 1200px;
+
  }
 /* <!-- Верхня лінія --> */
 
 
 .line {
-  
   outline: 1px solid rgb(98, 44, 168);
-  
+  width: 1600px;
   height: 80px;
   border: 1px solid #ececec;
-  
 }
 .lines {
-
- padding-top: 24px;
  display: flex;
-align-items: baseline;
-
+ margin-left: 215px;
 }
-
-
+.ule {
+  align-items: center;
+  display: flex;
+}
 .lines ul {
-  padding-right: 334px;
-display: inline;
+ 
 }
- .line_mai ul:nth-child(2n) {
-  padding-left: 0px;
-}
+
 .lines li {
   padding-right: 50px;
-display: inline;
 }
-.lines li:last-child {
-  padding-right: 0px;
-}
-.line_webstudi {
-  /* padding-left: 93px; */
-}
-.line_mai {
-  /* justify-content:flex-end ; */
-}
+
 .line_webstudio {
-  padding-right: 93px;
+  padding-right: 94px;
 }
 .line_studioss li>a {
   color: #212121;
@@ -125,10 +109,7 @@ display: inline;
 .line_studio>:visited {
   color: #2196f3;
 }
-
 .line_webstudio {
-
-
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -167,20 +148,21 @@ display: inline;
 background-position: 20px; */
 }
 .cap {
+  width: 1600px;
  height: 600px;
-  background: #422929;
+ background: #2F303A;
 }
 
 .capz  {
-padding-left:452px;
 padding-top: 200px;
-margin-bottom: 0;
-/* margin-top: 200px; */
-margin-bottom: 0;
+
+
 }
 
 .cap_effektivnost {
-  width: 696px;
+  /* padding-top: 200px; */
+  margin-left: 452px;
+   width: 692px;
   height: 120px;
   font-family: 'Roboto';
   font-style: normal;
@@ -196,7 +178,7 @@ margin-bottom: 0;
 .cap_effektivnost {}
 
 .cap_zakazat {
-margin-left:225px;
+margin-left: 692px;
 margin-top: 30px;
   color: #ffffff;
   background: #2f303a;
@@ -213,13 +195,12 @@ margin-top: 30px;
 
 /* <!-- особливості --> */
 .octiw {
-  /* margin-left: 0px; */
-  /* text-align: center; */
+  
   padding-left: 215px;
   padding-top: 94px;
 }
 .ocobluvi {
-  justify-content: center;
+  
   display: flex;
 }
 
@@ -229,14 +210,12 @@ margin-top: 30px;
 .ocobluvi li{
   padding-right: 30px;
 }
+
 .ocobluvi li:last-child {
   padding-right: 0;
 }
 .ocobluvi>li {
   outline: color rgb(155, 7, 7);
-  margin-top: 120px;
-  /* padding: 30px; */
-  margin-bottom: 118px;
 }
 
 
@@ -281,25 +260,16 @@ justify-content: center;
 
 }
 .what_t {
-  text-align: center;
+padding-left: 215px;
 }
 .what_we_do_q {
   width: 370px;
 height: 294px;
 }
 .what_we_do {
+  padding-top: 118px;
+padding-bottom: 50px;
 
-}
-.what_we_do {
-  padding-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 50px;
-  margin-top: 0;
-  padding-top: 0px;
-}
-
-.what_we_do {
-  
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -308,13 +278,12 @@ height: 294px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  
-
 }
 
 
 /* <!-- Наша команда --> */
 .our_times {
+ 
   padding-top: 94px;
   padding-bottom: 50px;
   font-family: "Roboto";
@@ -330,16 +299,15 @@ height: 294px;
 
 .our_time li {
   display: inline-block;
-
-margin-left: 30px;
-  margin-bottom: 202px; 
-
+margin-right: 30px;
+}
+.our_tim li:last-child {
+  margin-right: 0px;
 }
 .our_tim {
-  text-align: center;
+margin-left: 215px;
 }
 .our_time {
-margin-left: 178px;
   background: #f5f4fa;
   width: 1600px;
   height: 648px;
@@ -464,10 +432,13 @@ padding-bottom: 9px;
 
 /* портфолія */
 /* секция кнопка */
-
+.buttons {
+  padding-top: 94px;
+  padding-left: 512px;
+}
 ul.button li {
   display: inline;
-  border-radius: 4px;
+  
 }
 .button_s {
   color: #FFFFFF;
@@ -476,8 +447,13 @@ ul.button li {
 .button:focus {
   background: #F5F4FA;
 }
-
+.buttona {
+  
+ 
+  border-radius: 4px;
+}
 .button {
+ 
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -494,14 +470,10 @@ ul.button li {
 }
 
 /* секция портфолія */
-.tec {
- 
+.poster {
+  width: 370px;
+height: 404px;
 }
-
-.tech li {
-  margin-left: px;
-}
-
 .tech {
   font-family: 'Roboto';
   font-weight: 700;
@@ -510,8 +482,6 @@ ul.button li {
   line-height: 36px;
   letter-spacing: 0.06em;
   color: #212121;
-
-
 }
 
 .techer {
@@ -525,23 +495,26 @@ ul.button li {
 .technocrat_e li:nth-child(3n) {
 margin-right: 0;
 }
+.technocrat_e li:nth-child(-n + 3) {
+  margin-top: 0px;
+}
 .technocrat_e li {
  margin-right: 30px;
  margin-top: 30px;
-  /* display: flex; */
-  /* align-items: center; */
-/* justify-content: center; */
-  /* float: left; */
+ 
   list-style: none;
   box-sizing: border-box;
   background: #FFFFFF;
   border: 1px solid #EEEEEE;
 }
 .technocrat_e{
-/* margin-top: 50px; */
+  margin-left: 215px;
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   /* justify-content: center; */
+  /* align-items: center; */
+
 }
 
 .bo_lin {
