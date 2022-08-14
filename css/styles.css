@@ -29,7 +29,7 @@ figcaption,
 blockquote,
 dl,
 dd {
-  margin: 0;
+  /* margin: 0; */
 }
 
 li {
@@ -60,13 +60,14 @@ body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   margin: 0;
+  
 }
 .container {
-  
+
   width: 1200px;
   height: 94px;
- padding-right: 15px;
-padding-left: 15px;
+margin-right: 15px;
+margin-left: 15px;
   margin: 0 auto;
 
  }
@@ -87,13 +88,11 @@ padding-left: 15px;
   align-items: center;
   display: flex;
 }
-.lines ul {
- 
-}
 
 .lines li {
   padding-right: 50px;
 }
+
 
 .line_webstudio {
   padding-right: 94px;
@@ -196,8 +195,9 @@ margin-top: 30px;
 /* <!-- особливості --> */
 .octiw {
   
-  padding-left: 215px;
+  margin-left: 215px;
   padding-top: 94px;
+  /* margin-top: 94px; */
 }
 .ocobluvi {
   
@@ -247,26 +247,21 @@ margin-top: 30px;
 }
 
 /* <!-- чим ми займаємося  --> */
-
+.what_t {
+  margin-left: 215px;
+}
 .what_we>li {
   padding-right: 30px;
 }
 .what_we li:last-child {
-  padding-right: 0;
+  padding-right: 0px;
 }
 .what_we {
   display: flex;
-justify-content: center;
+}
 
-}
-.what_t {
-padding-left: 215px;
-}
-.what_we_do_q {
-  width: 370px;
-height: 294px;
-}
 .what_we_do {
+  
   padding-top: 118px;
 padding-bottom: 50px;
 
@@ -283,7 +278,7 @@ padding-bottom: 50px;
 
 /* <!-- Наша команда --> */
 .our_times {
- 
+
   padding-top: 94px;
   padding-bottom: 50px;
   font-family: "Roboto";
@@ -354,7 +349,7 @@ margin-left: 215px;
 
 /* <!-- нижня лінія --> */
 .bottom_line {
-  margin-top: 94px;
+
   width: 1600px;
   height: 252px;
   background: #2f303a;
@@ -434,7 +429,9 @@ padding-bottom: 9px;
 /* секция кнопка */
 .buttons {
   padding-top: 94px;
-  padding-left: 512px;
+/* align-items: center; */
+display: block;
+padding-left: auto;
 }
 ul.button li {
   display: inline;
@@ -448,7 +445,8 @@ ul.button li {
   background: #F5F4FA;
 }
 .buttona {
-  
+  width: 103px;
+height: 38px;
  
   border-radius: 4px;
 }
