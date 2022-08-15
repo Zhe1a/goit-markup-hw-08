@@ -157,6 +157,9 @@ background-position: 20px;
 
 .cap {
  
+ /* background-image:linear-gradient(rgba(47, 48, 58, 0.4)rgba(47, 48, 58, 0.4));
+ background-image:url(../photo/Hero.jpg);
+ background-position: 20px; */
  height: 600px;
  background-color: #2f303a;
 }
@@ -503,8 +506,10 @@ height: 404px;
   border: 1px solid #EEEEEE;
 }
 .technocrat_e{
+  margin-bottom: 0;
+  margin-top: 0;
   display: flex;
   flex-wrap: wrap;
-margin-bottom: 94px;
+padding-bottom: 114px;
 }
 
