@@ -62,35 +62,32 @@ body {
 
 }
 .container {
-
-  width: 1230px;
- height: 94px;
-  padding-right: 15px;
-padding-left: 15px;
+  width: 1200px;
   margin: 0 auto;
-
+ 
+ 
  }
+ 
 /* <!-- Верхня лінія --> */
-
-
 .line {
-  
-  width: 1600px;
   height: 80px;
   border: 1px solid #ececec;
 }
 .lines {
-height: 80px;
-  width: 1230px;
- display: flex;
- margin-left: 215px;
- margin-right: 215px;
+ 
+  display: flex;
+ 
 }
 .ule {
   align-items: center;
   display: flex;
 }
-
+.lines ul {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .lines li {
 
   padding-right: 50px;
@@ -103,7 +100,7 @@ height: 80px;
   padding-right: 0;
 }
 .rt {
-  margin-left: 344px;
+  margin-left: auto;
 }
 .line_webstudio {
   padding-right: 94px;
@@ -120,6 +117,8 @@ height: 80px;
   color: #2196f3;
 }
 .line_webstudio {
+  padding-top: 24px;
+  padding-bottom: 25px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -143,35 +142,36 @@ height: 80px;
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-
 .line_mai li>a {
   color: #757575;
 }
-
 .line_portfolioo>:visited {
   color: #2196f3;
 }
 
 /* <!-- Шапка --> */
+/* .cap {
+background-image:linear-gradient(rgba(47, 48, 58, 0.4)rgba(47, 48, 58, 0.4))url(../photo/Hero.jpg);
+background-position: 20px;
+} */
+
 .cap {
-/* background-image:linear-gradient(rgba(47, 48, 58, 0.4)rgba(47, 48, 58, 0.4))url(../photo/Hero.jpg);
-background-position: 20px; */
-}
-.cap {
-  width: 1600px;
+ 
  height: 600px;
- background: #2F303A;
+ background-color: #2f303a;
 }
 
 .capz  {
 padding-top: 200px;
-
+text-align: center;
 
 }
 
 .cap_effektivnost {
-  /* padding-top: 200px; */
-  margin-left: 452px;
+  margin-right: auto;
+  margin-left: auto;
+ margin-top: 0;
+ margin-bottom: 30px;
    width: 692px;
   height: 120px;
   font-family: 'Roboto';
@@ -188,12 +188,10 @@ padding-top: 200px;
 .cap_effektivnost {}
 
 .cap_zakazat {
-margin-left: 692px;
-margin-top: 30px;
+
   color: #ffffff;
   background: #2f303a;
   padding: 10px 32px;
-  max-width: fit-content;
 }
 
 .cap_zakazat:hover {
@@ -204,13 +202,10 @@ margin-top: 30px;
 }
 
 /* <!-- особливості --> */
-.octiw {
-  
-  margin-left: 215px;
-  padding-top: 94px;
-  /* margin-top: 94px; */
-}
 .ocobluvi {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 94px;
   padding-left: 5px;
   display: flex;
 }
@@ -258,8 +253,8 @@ margin-top: 30px;
 }
 
 /* <!-- чим ми займаємося  --> */
-.what_t {
-  
+.what_we_do {
+  text-align: center;
 }
 .what_we>li {
   padding-right: 30px;
@@ -269,14 +264,8 @@ margin-top: 30px;
 }
 .what_we {
   display: flex;
-  margin-left: 215px;
-  width: 1230px;
-  
-
 }
-
 .what_we_do {
-  margin-left: 617px;
   padding-top: 118px;
 padding-bottom: 50px;
 
@@ -288,50 +277,45 @@ padding-bottom: 50px;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.what_we_do_q {
- 
-}
-
-
 /* <!-- Наша команда --> */
 .our_times {
-padding-left: 668px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-top: 94px;
   padding-bottom: 50px;
   font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
-  /* text-align: center; */
   letter-spacing: 0.05em;
   color: #212121;
 }
-
+.our_t {
+  min-width: auto;
+}
+.our_t {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .our_time li {
   display: inline-block;
 margin-right: 30px;
-
 }
-.our_tim li:last-child {
+.our_time li:last-child{
   margin-right: 0px;
 }
-.our_t {
-  
-margin-left: 215px;
-
-}
-
 .our_time {
   background: #f5f4fa;
-  width: 1600px;
   height: 648px;
   
 }
 .our_time_q {
-  /* padding-top: 30px; */
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 30px;
   font-family: "Roboto";
   font-weight: 500;
-  /* font-size: 16px; */
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
@@ -339,8 +323,10 @@ margin-left: 215px;
 }
 
 .ur_time__r {
-  /* padding-bottom: 30px;
-  padding-top: 10px; */
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  padding-top: 10px;
   font-family: "Roboto";
   font-weight: 400;
   /* font-size: 16px; */
@@ -358,16 +344,12 @@ margin-left: 215px;
 
 
 /* <!-- нижня лінія --> */
+.bottom_lin {
+  padding-top: 60px;
+}
 .bottom_line {
-  width: 1600px;
   height: 252px;
   background: #2f303a;
-}
-.bottom_li {
-width: 1230px;
-height: 252px;
-  padding-top: 50px;
-  padding-left: 215px;
 }
 
 .webstudio {
@@ -430,9 +412,7 @@ padding-bottom: 9px;
 
 /* портфолія */
 /* секция кнопка */
-.buttons {
-  padding-top: 94px;
-}
+
 .button li {
   display: inline;
  padding-right: 8px;
@@ -455,9 +435,12 @@ padding-bottom: 6px;
 outline: none;
 }
 .button {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 94px;
+  margin-top: 0;
+  margin-bottom: 0;
   outline: none;
-  width: 1230px;
-  margin-left: 511px; 
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -520,11 +503,8 @@ height: 404px;
   border: 1px solid #EEEEEE;
 }
 .technocrat_e{
-  margin-left: 215px;
-  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
-  width: 1230px;
 margin-bottom: 94px;
 }
 
