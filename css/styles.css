@@ -59,8 +59,7 @@ a {
 body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
-  margin: 0;
-  
+
 }
 .container {
 
@@ -85,6 +84,7 @@ height: 80px;
   width: 1230px;
  display: flex;
  margin-left: 215px;
+ margin-right: 215px;
 }
 .ule {
   align-items: center;
