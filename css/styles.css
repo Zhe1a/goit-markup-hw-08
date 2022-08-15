@@ -91,20 +91,20 @@ body {
 }
 .lines li {
 
-  padding-right: 50px;
+  margin-right: 50px;
 }
 .ule li:nth-child(3n) {
-  padding-right: 0px;
+  margin-right: 0px;
 }
 
 .rt :nth-child(2n) {
-  padding-right: 0;
+  margin-right: 0;
 }
 .rt {
   margin-left: auto;
 }
 .line_webstudio {
-  padding-right: 94px;
+  margin-right: 94px;
 }
 .line_studioss li>a {
   color: #212121;
@@ -151,20 +151,14 @@ body {
 }
 
 /* <!-- Шапка --> */
-/* .cap {
-background-image:linear-gradient(rgba(47, 48, 58, 0.4)rgba(47, 48, 58, 0.4))url(../photo/Hero.jpg);
-background-position: 20px;
-} */
-
 .cap {
- 
- /* background-image: linear-gradient(rgba(47, 48, 58, 0.4)rgba(47, 48, 58, 0.4)) url(../photo/Hero.jpg);
- background-image:url(../photo/Hero.jpg);
- background-position: 20px; */
+ background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url(../photo/Hero.jpg);
+ background-size: cover;
+ /* background-position: 20px; */
  height: 600px;
  background-color: #2f303a;
-
  padding-top: 200px;
+ padding-bottom: 94px;
  text-align: center;
 }
 .cap_effektivnost {
@@ -186,24 +180,40 @@ background-position: 20px;
 }
 
 .cap_effektivnost {}
-
+/* .cap_zakazat button {
+  width: 152px;
+  height: 30px;
+} */
 .cap_zakazat {
-
-  color: #ffffff;
-  background: #2f303a;
+  width: 216px;
+  height: 50px;
+  font-weight: 700;
+  font-family: 'Roboto';
+font-size: 16px;
+line-height: 160%;
+align-items: Center;
+vertical-align: Center;
+letter-spacing: 6%;
+border-radius: none;
+  
+  color: #FFFFFF;
+  /* background: #2f303a; */
+  background-color: transparent;
   padding: 10px 32px;
+  
 }
 
 .cap_zakazat:hover {
-
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
 /* <!-- особливості --> */
+
 .ocobluv {
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 118px;
 }
 .ocobluvi {
   margin-bottom: 0;
@@ -215,14 +225,11 @@ background-position: 20px;
   margin-bottom: 10px;
 }
 .ocobluvi li{
-  padding-right: 30px;
+  margin-right: 30px;
 }
 
 .ocobluvi li:last-child {
-  padding-right: 0;
-}
-.ocobluvi>li {
-  outline: color rgb(155, 7, 7);
+  margin-right: 0;
 }
 
 
@@ -255,7 +262,8 @@ background-position: 20px;
 
 /* <!-- чим ми займаємося  --> */
 .what_w {
-  margin-top: 118px;
+
+  padding-bottom: 94px;
 }
 .what_we_do {
   text-align: center;
@@ -289,7 +297,6 @@ margin-top: 0;
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 94px;
   padding-bottom: 50px;
   font-family: "Roboto";
   font-weight: 700;
@@ -300,9 +307,6 @@ margin-top: 0;
 }
 .our_t li {
 margin-right: 30px;
-
-}
-.ourt {
 
 }
 .our_t {
@@ -323,8 +327,8 @@ margin-right: 30px;
 .our_time {
   background: #f5f4fa;
   height: 648px;
-  margin-top:94px ;
-  
+ padding-top: 94px;
+  padding-bottom: 94px;
 }
 .our_time_q {
   margin-top: 0;
@@ -345,7 +349,7 @@ margin-right: 30px;
   padding-top: 10px;
   font-family: "Roboto";
   font-weight: 400;
-  /* font-size: 16px; */
+  font-size: 16px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
@@ -360,12 +364,11 @@ margin-right: 30px;
 
 
 /* <!-- нижня лінія --> */
-.bottom_lin {
-  padding-top: 60px;
-}
 .bottom_line {
   height: 252px;
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .webstudio {
@@ -460,6 +463,13 @@ padding-bottom: 9px;
 padding-top: 6px;
 padding-bottom: 6px;
 outline: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
 }
 /* .button li:last-child {
   margin-right: -7px;
@@ -470,13 +480,6 @@ outline: none;
   margin-top: 0;
   margin-bottom: 50px;
   outline: none;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: 0.03em;
-  
 }
 
 .button li>:hover {
