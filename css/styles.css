@@ -205,6 +205,39 @@ border-radius: none;
 
 /* <!-- особливості --> */
 
+.svg {
+  background-color: #2196F3;
+  color: #2f303a;
+}
+.box::before {
+  content: "";
+ display: inline-block;
+width: 270px;
+height: 120px;
+background: #F5F4FA;
+border-radius: 4px;
+margin-bottom: 30px;
+}
+.box:nth-child(1):before {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../photo/spirt/css_sprites\ \(1\).png);
+}
+.box:nth-child(2):before {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image:url(../photo/spirt/4.png);
+}
+.box:nth-child(3):before {
+   background-repeat: no-repeat;
+  background-position: center;
+  background-image:url(../photo/spirt/css_sprites2.png);
+}
+.box:nth-child(4):before {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image:url(../photo/spirt/css_sprites3.png);
+}
 .ocobluv {
   padding-top: 94px;
   padding-bottom: 118px;
