@@ -73,30 +73,43 @@ body {
 .line {
   border-bottom: 1px solid #ececec;;
 }
+.lin {
+  margin-right: 10px;
+
+background-color: #2196f3;
+width: 20px;
+height: 20px;
+}
+.lerr { 
+  fill: var(#e60000);
+  width: 20px;
+  height: 20px;
+}
 .lines {
- 
   display: flex;
- 
 }
 .ule {
   align-items: center;
   display: flex;
 }
-.lines ul {
+.line + ul {
   padding-top: 32px;
   padding-bottom: 32px;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0; 
 }
-.lines li {
-
+.linevss {
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
   margin-right: 50px;
 }
-.ule li:nth-child(3n) {
+.ule .linevss:nth-child(3n) {
   margin-right: 0px;
 }
-
-.rt :nth-child(2n) {
+.rt +li:nth-child(2n) {
   margin-right: 0;
 }
 .rt {
@@ -153,7 +166,6 @@ body {
 .cap {
  background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url(../photo/Hero.jpg);
  background-size: cover;
- /* background-position: 20px; */
  height: 600px;
  background-color: #2f303a;
  padding-top: 200px;
@@ -191,10 +203,8 @@ letter-spacing: 6%;
 border-radius: none;
   
   color: #FFFFFF;
-  /* background: #2f303a; */
   background-color: transparent;
   padding: 10px 32px;
-  
 }
 
 .cap_zakazat:hover {
@@ -204,11 +214,6 @@ border-radius: none;
 }
 
 /* <!-- особливості --> */
-
-.svg {
-  background-color: #2196F3;
-  color: #2f303a;
-}
 .box::before {
   content: "";
  display: inline-block;
@@ -221,22 +226,22 @@ margin-bottom: 30px;
 .box:nth-child(1):before {
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(../photo/spirt/css_sprites\ \(1\).png);
+  background-image: url(../photo/icons.svg/antenna\ 1\ \(1\).svg);
 }
 .box:nth-child(2):before {
   background-repeat: no-repeat;
   background-position: center;
-  background-image:url(../photo/spirt/4.png);
+  background-image:url(../photo/icons.svg/clock\ 1\ \(1\).svg);
 }
 .box:nth-child(3):before {
    background-repeat: no-repeat;
   background-position: center;
-  background-image:url(../photo/spirt/css_sprites2.png);
+  background-image:url(../photo/icons.svg/diagram\ 1\ \(1\).svg);
 }
 .box:nth-child(4):before {
   background-repeat: no-repeat;
   background-position: center;
-  background-image:url(../photo/spirt/css_sprites3.png);
+  background-image:url(../photo/icons.svg/astronaut\ 1\ \(1\).svg);
 }
 .ocobluv {
   padding-top: 94px;
@@ -319,7 +324,42 @@ margin-top: 0;
   color: #212121;
 }
 /* <!-- Наша команда --> */
+.our_teneqq {
+  margin: 0;
+  padding: 0;
+  
+  justify-content: center;
+align-items: center;
+margin: 0;
 
+  display: flex;
+  list-style: none ;
+}
+.svg {
+  width: 20px;
+  height: 20px;
+}
+.our_teneqq .line_ins {
+  border-radius: 50%;
+  background-color: var(--white);
+  height: 44px;
+  width: 44px;
+display: flex;
+justify-content: center;
+align-items: center;
+ fill: #AFB1B8;;
+}
+.our_temeqqq > .line_ins:hover ,
+.our_temeqqq > .line_ins:focus{
+  fill: #FFFFFF;;
+  background-color: #2196F3;
+}
+.our_teneqq .our_temeqqq {
+  margin-right: 10px;
+}
+.our_teneqq .our_temeqqq:last-child {
+  margin-right: 0px;
+}
 .our_times {
   text-align: center;
   margin-top: 0;
@@ -332,23 +372,22 @@ margin-top: 0;
   letter-spacing: 0.05em;
   color: #212121;
 }
-.our_t li {
+.our_time  .our_timeq {
 margin-right: 30px;
 
 }
 .our_t {
   display: -webkit-box;
-  /* min-width: auto; */
 }
 .our_t {
   margin-top: 0;
   margin-bottom: 0;
 }
-.our_time li {
+.our_time >.our_timeq {
   display: inline-block;
 
 }
-.our_t li:last-child{
+.our_time .our_timeq:last-child{
   margin-right: 0px;
 }
 .our_time {
@@ -376,7 +415,7 @@ margin-right: 30px;
 
 .ur_time__r {
   margin-top: 10px;
-  margin-bottom: 0;
+  margin-bottom: 16px;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
@@ -386,7 +425,7 @@ margin-right: 30px;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.our_time li {
+.our_time .our_timeq {
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
