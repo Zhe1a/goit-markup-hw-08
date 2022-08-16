@@ -75,15 +75,22 @@ body {
 }
 .lin {
   margin-right: 10px;
-
-background-color: #2196f3;
-width: 20px;
-height: 20px;
+   display: flex;
+}
+.ler {
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 16px;
 }
 .lerr { 
-  fill: var(#e60000);
-  width: 20px;
-  height: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 12px;
+}
+.linevsss {
+  display: flex;
 }
 .lines {
   display: flex;
@@ -92,13 +99,13 @@ height: 20px;
   align-items: center;
   display: flex;
 }
-.line + ul {
+.line ul {
   padding-top: 32px;
   padding-bottom: 32px;
   margin-top: 0;
   margin-bottom: 0; 
 }
-.linevss {
+.line .linevss {
   align-items: center;
   margin-top: 0;
   margin-bottom: 0;
@@ -106,10 +113,14 @@ height: 20px;
   padding-bottom: 0;
   margin-right: 50px;
 }
+.rt > .linevsss {
+  margin-right: 30px;
+}
 .ule .linevss:nth-child(3n) {
   margin-right: 0px;
 }
-.rt +li:nth-child(2n) {
+
+.rt li:last-child {
   margin-right: 0;
 }
 .rt {
@@ -124,6 +135,11 @@ height: 20px;
 
 .line li>:hover {
   color: #2196F3;
+}
+.linevsss:hover,
+.linevsss:focus {
+  fill: #2196F3;
+  border-radius: 50%;
 }
 
 .line_studio>:visited {
@@ -431,8 +447,64 @@ margin-right: 30px;
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+/* Постійні клієнти */
 
+.Regularustomers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.customers {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 100%;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.customer {
+  margin-top: 50px;
+  display: flex;
+}
+.customer li {
+  margin-right: 30px;
+}
+.customer li:last-child {
+  margin-right: 0px;
+}
+.custom {
+display: flex;
+  justify-content: center;
+align-items: center;
+/* width: 170px;
+height: 92px; */
+}
+.custon {
+  
+  /* fill:#AFB1B8; */
+  display: flex;
+  width: 41px;
+  height: 46.7px;
+}
+.forr {
+  fill: #AFB1B8;;
+  background-color: var(--white);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+align-items: center;
+  width: 170px;
+height: 92px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+}
+.custome .forr:hover,
+.custome .forr:focus {
+border: 1px solid #2196F3;
 
+fill: #2196F3;
+ border-radius: 4px;
+}
 /* <!-- нижня лінія --> */
 .bottom_line {
   height: 252px;
