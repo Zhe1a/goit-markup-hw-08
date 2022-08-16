@@ -340,6 +340,13 @@ margin-top: 0;
   color: #212121;
 }
 /* <!-- Наша команда --> */
+.our_time {
+  background: #f5f4fa;
+  height: 648px;
+ padding-top: 94px;
+  padding-bottom: 94px;
+  
+}
 .our_teneqq {
   margin: 0;
   padding: 0;
@@ -406,12 +413,6 @@ margin-right: 30px;
 .our_time .our_timeq:last-child{
   margin-right: 0px;
 }
-.our_time {
-  background: #f5f4fa;
-  height: 648px;
- padding-top: 94px;
-  padding-bottom: 94px;
-}
 .ur_t {
   padding-bottom: 30px;
   padding-top: 30px;
@@ -474,27 +475,22 @@ letter-spacing: 0.03em;
 }
 .custom {
 display: flex;
-  justify-content: center;
-align-items: center;
-/* width: 170px;
-height: 92px; */
 }
 .custon {
-  
-  /* fill:#AFB1B8; */
   display: flex;
-  width: 41px;
-  height: 46.7px;
+}
+.custome {
+ display: flex;
 }
 .forr {
+  width: 170px;
+  height: 92px;
   fill: #AFB1B8;;
   background-color: var(--white);
   box-sizing: border-box;
   display: flex;
   justify-content: center;
-align-items: center;
-  width: 170px;
-height: 92px;
+
 border: 1px solid #AFB1B8;
 border-radius: 4px;
 }
