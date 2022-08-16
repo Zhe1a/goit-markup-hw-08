@@ -71,8 +71,7 @@ body {
  
 /* <!-- Верхня лінія --> */
 .line {
-  height: 80px;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;;
 }
 .lines {
  
@@ -140,7 +139,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 100%;
   letter-spacing: 0.02em;
 }
 .line_mai li>a {
@@ -172,18 +171,13 @@ body {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 116%;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #FFFFFF;
 }
 
-.cap_effektivnost {}
-/* .cap_zakazat button {
-  width: 152px;
-  height: 30px;
-} */
 .cap_zakazat {
   width: 216px;
   height: 50px;
@@ -240,7 +234,7 @@ border-radius: none;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 100%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -253,7 +247,7 @@ border-radius: none;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 146%;
   letter-spacing: 0.03em;
   color: #757575;
   margin-bottom: 0px;
@@ -269,10 +263,10 @@ border-radius: none;
   text-align: center;
 }
 .what_we>li {
-  padding-right: 30px;
+  margin-right: 30px;
 }
 .what_we li:last-child {
-  padding-right: 0px;
+  margin-right: 0px;
 }
 .what_we {
   display: flex;
@@ -280,14 +274,14 @@ border-radius: none;
   margin-bottom: 0;
 }
 .what_we_do {
-padding-bottom: 50px;
-margin-bottom: 0;
+margin-bottom: 50px;
+
 margin-top: 0;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 100%;
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -297,11 +291,11 @@ margin-top: 0;
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 100%;
   letter-spacing: 0.05em;
   color: #212121;
 }
@@ -330,26 +324,30 @@ margin-right: 30px;
  padding-top: 94px;
   padding-bottom: 94px;
 }
+.ur_t {
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+}
 .our_time_q {
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 30px;
   font-family: "Roboto";
   font-weight: 500;
-  line-height: 19px;
+  font-size: 16px;
+  line-height: 100%;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 
 .ur_time__r {
-  margin-top: 0;
+  margin-top: 10px;
   margin-bottom: 0;
-  padding-bottom: 30px;
-  padding-top: 10px;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
+  line-height: 100%;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
@@ -377,7 +375,7 @@ margin-right: 30px;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 100%;
   letter-spacing: 0.03em;
   color: #ffffff !important;
 }
@@ -387,13 +385,14 @@ margin-right: 30px;
 }
 
 .bottom_line_addres {
-padding-top: 20px;
-padding-bottom: 9px;
+
+margin-top: 20px;
+margin-bottom: 9px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 146%;
   letter-spacing: 0.03em;
 }
 .bottom_line ul {
@@ -413,22 +412,21 @@ padding-bottom: 9px;
 }
 
 .bottom_line_mail {
-padding-bottom: 9px;
+margin-bottom: 9px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 146%;
   letter-spacing: 0.03em;
 }
 
 .bottom_line_telefon {
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 146%;
   letter-spacing: 0.03em;
 }
 
@@ -467,7 +465,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 139%;
 text-align: center;
 letter-spacing: 0.03em;
 }
@@ -492,12 +490,12 @@ letter-spacing: 0.03em;
 .tech {
   margin-top: 0;
   margin-bottom: 0;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
   font-family: 'Roboto';
   font-weight: 700;
   letter-spacing: 0.06em;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 171%;
   letter-spacing: 0.06em;
   color: #212121;
 }
@@ -516,7 +514,7 @@ letter-spacing: 0.03em;
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 160%;
   letter-spacing: 0.03em;
   color: #757575;
 }
