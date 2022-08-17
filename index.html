@@ -14,7 +14,7 @@
     <header class="line">
       <div class="lines container ">
         <nav class="linevs ule">
-       <a class="line_webstudio" href="#"
+       <a class="line_webstudio " href="#"
         ><span class="line_webstudi ">Web</span>Studio</a>
         <ul class="line_studioss  ule  rte">
           <li class="line_studio line_studios linevss"><a href="">Студія</a></li>
@@ -23,14 +23,15 @@
         </ul>
       </nav>
       <ul class="line_mai ule rt  "> 
-        <li class="line_studios linevsss linvss ">
-          <a class="leeer" href="mailto:info@devstudio.com"><svg class="lerr" width="16" hight="12">
+        <li class="line_studios linevss linvss ">
+          <a class="leeer" href="mailto:info@devstudio.com">
+            <svg class="lerr" width="16" hight="12">
             <use href="./photo/icons.svg/symbol-defs.svg#icon-Vector-24"/>
           </svg>info@devstudio.com</a>
         </li>
-        <li class="line_studios linevsss linvss">
-          
-          <a class="leeer" href="tel:+380961111111"><svg class="ler" width="10" hight="16">
+        <li class="line_studios linevss linvss">
+          <a class="leeer" href="tel:+380961111111">
+            <svg class="ler" width="10" hight="16">
             <use href="./photo/icons.svg/symbol-defs.svg#icon-envelope-hover"/>
           </svg>+38 096 111 11 11</a>
         </li>
@@ -42,8 +43,13 @@
           <h1 class="cap_effektivnost">
             ЕФЕКТИВНІ РІШЕННЯ ДЛЯ<br />ВАШОГО БІЗНЕСУ
           </h1>
-          <button class="cap_zakazat" type="button">Замовити послугу</button>
+          <button data-modal-open class="cap_zakazat" type="button">Замовити послугу</button>
         </div>
+       <div class="backdrop is-hidden">
+        <div class="modal">
+        <button class="x" data-modal-close><svg class="xx" widht="20" height="20"><use href="./photo/icons.svg/symbol-defs.svg#x"/></svg></button>
+      </div>
+       </div>
       </section>
       <!-- особливості -->
       <section class="ocobluv">
@@ -91,12 +97,21 @@
         <ul class="what_we">
           <li class="what_we_do_q">
             <img src="./photo/img1.jpg" alt="фото" width="370" height="294" />
+            <div class="whart">
+              <h3>Десктопні додатки</h3>
+            </div>
           </li>
           <li class="what_we_do_q">
-            <img src="./photo/img2.jpg" alt="фото" width="370" height="294" />
+            <img src="./photo/img2.jpg" alt="фото" width="370" height="294" /> 
+            <div class="whart">
+              <h3>Мобільні додатки</h3>
+            </div>
           </li>
           <li class="what_we_do_q">
             <img src="./photo/img3.jpg" alt="фото"width="370" height="294" />
+             <div class="whart">
+              <h3>Дизайнерські рішення</h3>
+            </div>
           </li>
         </ul>
       </div>
@@ -337,5 +352,6 @@
   </div>
   </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

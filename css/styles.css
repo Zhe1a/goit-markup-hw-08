@@ -72,6 +72,8 @@ body {
 /* <!-- Верхня лінія --> */
 .line {
   border-bottom: 1px solid #ececec;;
+  height: 80px;
+  
 }
 .leeer {
   align-items: center;
@@ -79,6 +81,7 @@ body {
   display: flex;
 }
 .ler {
+  /* display: flex; */
  margin-right: 10px;
   width: 10px;
   height: 16px;
@@ -88,14 +91,17 @@ body {
   width: 16px;
   height: 12px;
 }
-.linevsss {
+.linevss {
+  display: flex;
+}
+.linvss {
   display: flex;
 }
 .lines {
   display: flex;
 }
 .ule {
-  align-items: center;
+  text-align: center;
   display: flex;
 }
 .line ul {
@@ -112,7 +118,7 @@ body {
   padding-bottom: 0;
   margin-right: 50px;
 }
-.rt > .linevsss {
+.rt > .linevss {
   margin-right: 30px;
 }
 .ule .linevss:nth-child(3n) {
@@ -139,6 +145,30 @@ body {
 }
 .line_studio>:visited {
   color: #2196f3;
+  
+}
+.line_studio {
+  
+}
+.line_studio::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: #2196F3;;
+ left: 0;
+ bottom: -32px;
+ border-radius: 2px;
+}
+.line_portfolioo::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: #2196F3;;
+ left: 0;
+ bottom: -32px;
+ border-radius: 2px;
 }
 .line_webstudio {
   padding-top: 24px;
@@ -165,6 +195,7 @@ body {
   font-size: 14px;
   line-height: 100%;
   letter-spacing: 0.02em;
+  position: relative;
 }
 .line_mai a {
   color: #757575;
@@ -177,11 +208,12 @@ body {
 .cap {
  background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url(../photo/Hero.jpg);
  background-size: cover;
- height: 600px;
+ /* height: 600px; */
  background-color: #2f303a;
  padding-top: 200px;
  padding-bottom: 200px;
  text-align: center;
+ position: relative;
 }
 .cap_effektivnost {
   margin-right: auto;
@@ -202,6 +234,7 @@ body {
 }
 
 .cap_zakazat {
+ 
   width: 216px;
   height: 50px;
   font-weight: 700;
@@ -222,6 +255,59 @@ border: 0px;
 .cap_zakazat:focus {
   border: 0px;
   background: #2196f3;
+}
+.is-hidden {
+  width: 500px;
+  height: 500px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.backdrop .is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+.backdrop {
+ 
+position: absolute;
+width: 528px;
+height: 581px;
+  background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+opacity: 1;
+visibility: visible;
+
+bottom: -20%;
+left: 29%;
+}
+.cap_zakazat::after {
+  content: "";
+ position:absolute;
+ height: 30px;
+}
+.backdrop:after {
+  content: "";
+  opacity: 0;
+}
+.xx {
+display: flex;
+align-items: center;
+
+}
+.x {
+ align-items: center;
+ display: flex;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.x:hover {
+  fill: #EEEEEE;
+  background: rgba(33, 150, 243, 1);
 }
 
 /* <!-- особливості --> */
@@ -305,7 +391,6 @@ margin-bottom: 30px;
 
 /* <!-- чим ми займаємося  --> */
 .what_w {
-
   padding-bottom: 94px;
 }
 .what_we_do {
@@ -313,6 +398,7 @@ margin-bottom: 30px;
 }
 .what_we>li {
   margin-right: 30px;
+  position: relative;
 }
 .what_we li:last-child {
   margin-right: 0px;
@@ -324,7 +410,6 @@ margin-bottom: 30px;
 }
 .what_we_do {
 margin-bottom: 50px;
-
 margin-top: 0;
   font-family: 'Roboto';
   font-style: normal;
@@ -333,6 +418,30 @@ margin-top: 0;
   line-height: 100%;
   letter-spacing: 0.03em;
   color: #212121;
+}
+.whart {
+  content: "";
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  bottom: 0;
+  left: 0;
+}
+.whart >h3 {
+  padding-bottom: 27px;
+  padding-top: 27px;
+  justify-content: center;
+  display: flex;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 100%;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
 }
 /* <!-- Наша команда --> */
 .our_time {
@@ -731,6 +840,7 @@ height: 404px;
   box-sizing: border-box;
   background: #FFFFFF;
   border: 1px solid #EEEEEE;
+  
 }
 .technocrat_e{
   margin-bottom: 0;
@@ -741,7 +851,38 @@ height: 404px;
 
 .poster:hover,
 .poster:focus {
+  
   border: 1px solid #EEEEEE;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  
+}
+.poster:hover .over {
+  transform: translate(0);
+}
+.tttttc {
+  overflow: hidden;
+  position: relative;
+}
+.over p {
+padding-left: 24px;
+  padding-right: 24px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 133%;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+.over {
+  display: flex;
+justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(33, 150, 243, 0.9);
+  transform:  translatey(100%) ;
+  transition: transform 300ms ease;
 }
