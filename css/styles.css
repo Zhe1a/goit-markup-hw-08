@@ -59,7 +59,6 @@ a {
 body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
-
 }
 textarea {
   resize: none;
@@ -372,8 +371,8 @@ margin-bottom: 30px;
 }
 
 .osobennosti_idea {
-  width: 270px;
-  height: 72px;
+  /* width: 270px;
+  height: 72px; */
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -381,8 +380,7 @@ margin-bottom: 30px;
   line-height: 146%;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-bottom: 0px;
-  margin-top: 0px;
+ 
 }
 
 /* <!-- чим ми займаємося  --> */
