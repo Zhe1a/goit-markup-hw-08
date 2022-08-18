@@ -61,6 +61,9 @@ body {
   font-family: 'Roboto', sans-serif;
 
 }
+textarea {
+  resize: none;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -74,6 +77,9 @@ body {
   border-bottom: 1px solid #ececec;;
   height: 80px;
   
+}
+.line a {
+  transition-duration: 250ms;
 }
 .leeer {
   align-items: center;
@@ -142,14 +148,10 @@ body {
 .linvss>:focus {
   color: #2196F3;
   fill: #2196F3;
-  transition-duration: 250ms;
-  transition-delay: 250ms;
+
 }
 .line_studio>:visited {
   color: #2196f3;
-  
-}
-.line_studio {
   
 }
 .line_studio::after {
@@ -236,7 +238,7 @@ body {
 }
 
 .cap_zakazat {
- 
+ border-radius: 4px;
   width: 216px;
   height: 50px;
   font-weight: 700;
@@ -469,17 +471,19 @@ display: flex;
 justify-content: center;
 align-items: center;
  fill: #AFB1B8;;
+ transition-duration: 250ms;
+ 
+  
 }
 .our_temeqqq > .line_ins:hover ,
 .our_temeqqq > .line_ins:focus{
   fill: #FFFFFF;;
   background-color: #2196F3;
-  transition-duration: 250ms;
-  transition-timing-function: linear ;
-  transition-delay: 150ms;
+  
 }
 .our_teneqq .our_temeqqq {
   margin-right: 10px;
+ 
 }
 .our_teneqq .our_temeqqq:last-child {
   margin-right: 0px;
@@ -595,17 +599,13 @@ display: flex;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
-
+  transition-duration: 250ms;
 border: 1px solid #AFB1B8;
 border-radius: 4px;
 }
 .custome .forr:hover,
 .custome .forr:focus {
 border: 1px solid #2196F3;
-transition-duration: 250ms;
-transition-timing-function: linear ;
-transition-delay: 150ms;
-
 fill: #2196F3;
  border-radius: 4px;
 }
@@ -644,6 +644,9 @@ display: flex;
 }
 
 .icons {
+  transition-duration: 250ms;
+  transition-timing-function: linear ;
+
   margin-right: 10px;
   border-radius: 50%;
   background-color: #3b3d3f;
@@ -664,8 +667,7 @@ height: 20px;
 }
 .icons:hover ,
 .icons>:focus{
- transition-duration: 250ms;
- transition-timing-function: linear ;
+
  transition-delay: 150ms;
   border-radius: 50%;
   background-color: #2196F3;
@@ -839,6 +841,7 @@ height: 404px;
   background: #FFFFFF;
   border: 1px solid #EEEEEE;
   transition-duration: 250ms;
+  
  
 }
 .technocrat_e{
@@ -868,22 +871,36 @@ padding-left: 24px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
+  line-height: 32px;
   line-height: 133%;
   letter-spacing: 0.03em;
   color: #FFFFFF;
+
 }
 .over {
-  transition-duration: 250ms;
+  
   display: flex;
 justify-content: center;
  align-items: center;
  width: 100%;
- height: 100%;
+ height: 101%;
   position: absolute;
   top: 0;
   left: 0;
   background: rgba(33, 150, 243, 0.9);
   transform:  translatey(100%) ;
+  transition-duration: 250ms;
   /* transition: transform 250ms ease; */
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+}
+.form_l {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  display: block;
+ 
+  text-align: center;
+  align-items: center;
+}
+.form {
+  margin-top: 12px;
 }
