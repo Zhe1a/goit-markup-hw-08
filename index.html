@@ -10,6 +10,9 @@
     <title>Bootcamp31</title>
   </head>
   <body>
+
+ 
+  
     <!-- Верхня лінія -->
     <header class="line">
       <div class="lines container ">
@@ -37,6 +40,7 @@
         </li>
       </ul>
     </header>
+  </div>
     <!-- Шапка -->
       <section class="cap">
         <div class="container">
@@ -44,13 +48,8 @@
             ЕФЕКТИВНІ РІШЕННЯ ДЛЯ<br />ВАШОГО БІЗНЕСУ
           </h1>
           <button data-modal-open class="cap_zakazat" type="button">Замовити послугу</button>
-        </div>
-       <div class="backdrop is-hidden">
-        <div class="modal">
-        <button class="x" data-modal-close><svg class="xx" widht="20" height="20"><use href="./photo/icons.svg/symbol-defs.svg#x"/></svg></button>
-      </div>
-       </div>
       </section>
+   
       <!-- особливості -->
       <section class="ocobluv">
         <div class="container">
@@ -352,6 +351,13 @@
   </div>
   </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+      <button data-modal-close type="button" class="modal_button">
+        <svg class="modal_svg" widht="20" height="20"><use href="./photo/icons.svg/symbol-defs.svg#x"/></svg>
+      </button>
+    </div>
+  </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
