@@ -243,11 +243,12 @@ textarea {
   font-weight: 700;
   font-family: 'Roboto';
 font-size: 16px;
+font-style: normal;
 line-height: 160%;
-align-items: Center;
-vertical-align: Center;
+/* align-items: Center; */
+/* vertical-align: Center; */
 letter-spacing: 6%;
-border-radius: none;
+/* border-radius: none; */
 border: 0px;
   color: #FFFFFF;
   background: #2196f3;
@@ -888,16 +889,125 @@ justify-content: center;
   background: rgba(33, 150, 243, 0.9);
   transform:  translatey(100%) ;
  
-  
-}
-.form_l {
-  padding-bottom: 40px;
-  padding-top: 40px;
-  display: block;
- 
-  text-align: center;
-  align-items: center;
+  /* свої дані */
 }
 .form {
-  margin-top: 12px;
+  padding: 40px;
+}
+.tessstt {
+  margin-bottom: 12px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.form_ledel {
+  position: relative;
+ margin-top: 10px;
+}
+.form_led {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  color: #757575;
+  
+ 
+
+}
+.form_input {
+ padding: 10px 30px;
+ display: flex; 
+  width: 448px;
+height: 40px;
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+transition-duration: 150ms;
+}
+.conditions {
+  cursor: pointer;
+  color: #2196f3;
+ background-color: transparent;
+ border: none;
+text-decoration: underline;
+}
+.form_svg{
+  position: absolute;
+width: 15px;
+height: 13px;
+transform: translatey(-50%);
+left: 12px;
+top: 65%;
+}
+
+.form_input:active,
+.form_input:focus,
+.form_input:hover {
+  border:2px solid #2196F3;
+}
+.form_inpu:active,
+.form_inpu:hover {
+  border: 2px solid #2196F3;
+}
+.form_input:hover +.form_svg,
+.form_input:focus-visible +.form_svg {
+  fill: #2196F3;
+}
+.form_inpu{
+  transition-duration: 150ms;
+  padding: 10px 30px;
+  width: 448px;
+height: 120px;
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+}
+
+.checdox {
+  position: relative;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 146%;
+  letter-spacing: 0.03em;
+
+}
+.checkdo {
+display: flex;
+  margin-top: 20px;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+.boxs {
+  margin-right: 7px;
+display: flex;
+  width: 16px;
+  height: 15px;
+  border: 2px solid #212121;
+}
+.che:checked ~.boxs {
+  border: 2px solid #252525;
+  background-color: #2196F3;
+  background-image: url(../photo/icons.svg/Vector\ \(25\)\ \(1\).svg);
+  fill: #ececec;
+background-size: contain;
+}
+.che {
+  transition-duration: 150ms;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.cap_zakaza {
+  margin-top: 30px;
+display: flex;
+text-align: center;
+justify-content: center;
 }

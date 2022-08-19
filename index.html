@@ -355,24 +355,39 @@
       <div class="modal">
         
 <form class="form">
-  <h2>Залиште свої дані, ми вам передзвонимо</h2>
-  <lebel for="neme">Ім'я</lebel>
-  <input type="text" id="name"/>
-<br>
-<form class="form">
-  <label for="tel">Телефон</label>
-  <input type="tel" id="tel"/>
- <br>
- <label for="email">Пошта</label>
-  <input type="email" id="email"/>
-  <br>
-  <label for="text">Коментар</label>
-  <textarea name="coment" id="coment"  rows="20" placeholder="Введіть текст"></textarea>
-  <br>
-  <input type="checkbox">
-  <label type="checkbox">Погоджуюся з розсилкою та приймаю Умови договору</label>
-  <br>
-  <button type="submit" >dslghfdbnb</button>
+  <h2 class="tessstt">Залиште свої дані, ми вам передзвонимо</h2>
+  <div class="form_ledel">
+    <lebel class="form_led" for="name">Ім'я</lebel>
+  <input class="form_input" type="text" id="name"/>
+  <svg class="form_svg" whidf="14" height="14">
+    <use href="./photo/icons.svg/symbol-defs.svg#name"/>
+  </svg>
+</div>
+<div class="form_ledel">
+  <label class="form_led" for="tel">Телефон</label>
+  <input class="form_input" type="tel" id="tel"/>
+  <svg class="form_svg" whidf="14" height="14">
+    <use href="./photo/icons.svg/symbol-defs.svg#telefon"/>
+  </svg>
+  
+</div>
+<div class="form_ledel">
+ <label class="form_led" for="email">Пошта</label>
+  <input  class="form_input"type="email" id="email"/>
+  <svg class="form_svg" whidf="14" height="14">
+    <use href="./photo/icons.svg/symbol-defs.svg#mail"/>
+  </svg>
+</div>
+<div class="form_ledel" role="group">
+  <label class="form_led" for="text">Коментар</label>
+  <textarea  class="form_inpu"name="coment" id="coment" placeholder="Введіть текст"></textarea>
+</div>
+<div class="checkdo" >
+  <input class="che" type="checkbox" id="kok" name="checkdox"><span class="boxs"></span>
+  <label class="checkdox" type="checkbox" for="kok">Погоджуюся з розсилкою та приймаю<button class="conditions">Умови договору</button></label>
+</div><div class="cap_zakaza">
+  <button class="cap_zakazat" type="submit" >Відправити</button>
+</div>
 </form>
 
       <button data-modal-close type="button" class="modal_button">
