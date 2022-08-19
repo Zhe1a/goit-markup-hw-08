@@ -985,7 +985,7 @@ width: 15px;
 height: 13px;
 transform: translatey(-50%);
 left: 12px;
-top: 65%;
+top: 50%;
 }
 
 .form_input:active,
@@ -1000,6 +1000,9 @@ top: 65%;
 .form_input:hover +.form_svg,
 .form_input:focus-visible +.form_svg {
   fill: #2196F3;
+}
+.form_1 {
+  position: relative;
 }
 .form_inpu{
   transition-duration: 150ms;
@@ -1057,9 +1060,9 @@ align-items: center;
   fill: #ececec;
   border: none;
   background-size: contain;
-  
   /* background-repeat: no-repeat; */
 }
+
 
 .che {
   position: absolute;
