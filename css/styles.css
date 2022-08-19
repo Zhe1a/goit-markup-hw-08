@@ -153,8 +153,10 @@ text-align: center;
   color: #212121;
 }
 .header-menu__svg {
+ text-align: center;
+  margin-right: 10px;
 width: 16px;
-height: 12px;
+height: 16px;
 }
 
 .header-menu__item_activ>:visited  {
