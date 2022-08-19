@@ -235,7 +235,6 @@ textarea {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-
 .cap_zakazat {
  border-radius: 3px;
   width: 216px;
@@ -245,10 +244,7 @@ textarea {
 font-size: 16px;
 font-style: normal;
 line-height: 160%;
-/* align-items: Center; */
-/* vertical-align: Center; */
 letter-spacing: 6%;
-/* border-radius: none; */
 border: 0px;
   color: #FFFFFF;
   background: #2196f3;
@@ -290,6 +286,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 border-radius: 4px;
 }
 .modal_button {
+  transition-duration: 250ms;
   cursor: pointer;
   display: block;
  position: absolute;
@@ -301,8 +298,12 @@ top: 8px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
-.modal_svg {
+.modal_button:focus,
+.modal_button:hover {
+  fill:#2196F3; 
 
+}
+.modal_svg {
 width: 11px;
 height: 11px;
 }
@@ -372,8 +373,6 @@ margin-bottom: 30px;
 }
 
 .osobennosti_idea {
-  /* width: 270px;
-  height: 72px; */
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -736,6 +735,55 @@ margin-bottom: 9px;
   display: flex;
   justify-content: center;
 }
+
+
+.text_n_m {
+  margin-left: 80px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.text_n {
+  position: absolute;
+   transform: translate(97%);
+   bottom: 33px;
+   display: flex;
+}
+.text_n_ma {
+ 
+  display: flex;
+}
+.E-mal {
+padding: 10px 20px;
+ 
+  margin-right: 20px;
+ color: #f5f4fa;
+  display: flex;
+  width: 358px;
+  height: 50px;
+ background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+}
+
+.mail_e{
+  display: flex;
+}
+.button_submit {
+  justify-content: center;
+display: flex;
+}
+.submit_text {
+  margin-left: 10px;
+ width: 24px;
+ height: 24px;
+}
 /* портфолія */
 /* секция кнопка */
 .portfoli {
@@ -888,9 +936,13 @@ justify-content: center;
   left: 0;
   background: rgba(33, 150, 243, 0.9);
   transform:  translatey(100%) ;
+
  
-  /* свої дані */
 }
+
+
+
+ /* свої дані */
 .form {
   padding: 40px;
 }
