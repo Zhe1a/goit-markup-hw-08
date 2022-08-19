@@ -10,78 +10,72 @@
     <title>Bootcamp31</title>
   </head>
   <body>
-
- 
-  
     <!-- Верхня лінія -->
-    <header class="line">
-      <div class="lines container ">
-        <nav class="linevs ule">
-       <a class="line_webstudio " href="#"
-        ><span class="line_webstudi ">Web</span>Studio</a>
-        <ul class="line_studioss  ule  rte">
-          <li class="line_studio line_studios linevss"><a href="">Студія</a></li>
-          <li class="line_studios linevss linvss"><a href="portfolio.html">Портфолія</a></li>
-          <li class="line_studios linevss linvss"><a href="">Контакти</a></li>
+    <header class="header">
+      <div class="container">
+        <nav class="header-nav">
+       <a class="header-nav__link" href="#"
+        ><span class="header-nav__span">Web</span>Studio</a>
+        <ul class="header-menu">
+          <li class="header-menu__item header-menu__item_activ "><a class="header-menu__link" href="">Студія</a></li>
+          <li class="header-menu__item"><a class="header-menu__link" href="portfolio.html">Портфолія</a></li>
+          <li class="header-menu__item"><a class="header-menu__link" href="">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="line_mai ule rt  "> 
-        <li class="line_studios linevss linvss ">
-          <a class="leeer" href="mailto:info@devstudio.com">
-            <svg class="lerr" width="16" hight="12">
+      <ul class="header-menu"> 
+        <li class="header-menu__item">
+          <a class="header-menu__link" href="mailto:info@devstudio.com">
+            <svg class="header-menu__svg" widft="1" heighf="1" >
             <use href="./photo/icons.svg/symbol-defs.svg#icon-Vector-24"/>
           </svg>info@devstudio.com</a>
         </li>
-        <li class="line_studios linevss linvss">
-          <a class="leeer" href="tel:+380961111111">
-            <svg class="ler" width="10" hight="16">
-            <use href="./photo/icons.svg/symbol-defs.svg#icon-envelope-hover"/>
-          </svg>+38 096 111 11 11</a>
-        </li>
+        <li class="header-menu__item">
+          <a class="header-menu__link" href="tel:+380961111111">
+              <svg class="header-menu__svg" widft="16" heighf="12">
+                  <use href="./photo/icons.svg/symbol-defs.svg#icon-envelope-hover"/>
+                </svg>+38 096 111 11 11</a></li>
       </ul>
-    </header>
   </div>
+   </header>
     <!-- Шапка -->
-      <section class="cap">
-        <div class="container">
-          <h1 class="cap_effektivnost">
-            ЕФЕКТИВНІ РІШЕННЯ ДЛЯ<br />ВАШОГО БІЗНЕСУ
-          </h1>
-          <button data-modal-open class="cap_zakazat" type="button">Замовити послугу</button>
-      </section>
-   
+    <section class="section-heroo">
+      <div class="container">
+        <h1 class="section-heroo__titel">
+          ЕФЕКТИВНІ РІШЕННЯ ДЛЯ<br />ВАШОГО БІЗНЕСУ
+        </h1>
+        <button data-modal-open class="btn--wrapper section-heroo__button " type="button">Замовити послугу</button>
+    </section>
       <!-- особливості -->
-      <section class="ocobluv">
+      <section class="section-content">
         <div class="container">
-        <ul class="ocobluvi">
-          <li class="box">
-            <h3 class="osobennosti_warning">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="osobennosti_idea">
-              Ідейні міркування, і навіть початок <br />
-              повсякденної роботи з формування <br />
+        <ul class="section-content__list">
+          <li class="section-content__item">
+            <h3 class="section-content__slogan wrapper--slogan">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="section-content__text wrapper--text">
+              Ідейні міркування, і навіть початок <br>
+              повсякденної роботи з формування <br>
               позиції.
             </p>
           </li>
-          
-          <li class="box">
-            <h3 class="osobennosti_warning ">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="osobennosti_idea">
-              Завдання організації, особливо рамки<br />
-              і місце навчання кадрів тягне у себе.
+          <li class="section-content__item">
+            <h3 class="section-content__slogan wrapper--slogan">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="section-content__text wrapper--text">
+              Завдання організації, особливо рамки<br>
+              і місце навчання кадрів тягне у себе
             </p>
           </li>
-          <li class="box">
-            <h3 class="osobennosti_warning">ПЛАНУВАННЯ</h3>
-            <p class="osobennosti_idea">
-              Так само консультація з широким <br />
+          <li class="section-content__item">
+            <h3 class="section-content__slogan wrapper--slogan">ПЛАНУВАННЯ</h3>
+            <p class="section-content__text wrapper--text">
+              Так само консультація з широким <br>
               активом значною мірою зумовлює.
             </p>
           </li>
-          <li class="box">
-            <h3 class="osobennosti_warning">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="osobennosti_idea">
-              Значимість цих проблем настільки <br />
-              очевидна, що реалізація планових <br />
+          <li class="section-content__item">
+            <h3 class="section-content__slogan wrapper--slogan">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="section-content__text wrapper--text">
+              Значимість цих проблем настільки <br>
+              очевидна, що реалізація планових <br>
               завдань.
             </p>
           </li>
@@ -90,26 +84,26 @@
       </section>
       </div>
       <!-- чим ми займаємося  -->
-      <section class="what_w">
+      <section class="section-widget">
         <div class="container">
-        <h3 class="what_we_do">Чим ми займаємося</h3>
-        <ul class="what_we">
-          <li class="what_we_do_q">
+        <h3 class="section-widget__subtitle wrapper--subtitle">Чим ми займаємося</h3>
+        <ul class="section-widget__list">
+          <li class="section-widget__item">
             <img src="./photo/img1.jpg" alt="фото" width="370" height="294" />
-            <div class="whart">
-              <h3>Десктопні додатки</h3>
+            <div class="section-widget__box">
+              <h3 class="wrapper--desc section-widget__desc">Десктопні додатки</h3>
             </div>
           </li>
-          <li class="what_we_do_q">
+          <li class="section-widget__item">
             <img src="./photo/img2.jpg" alt="фото" width="370" height="294" /> 
-            <div class="whart">
-              <h3>Мобільні додатки</h3>
+            <div class="section-widget__box">
+              <h3 class="wrapper--desc section-widget__desc">Мобільні додатки</h3>
             </div>
           </li>
-          <li class="what_we_do_q">
+          <li class="section-widget__item">
             <img src="./photo/img3.jpg" alt="фото"width="370" height="294" />
-             <div class="whart">
-              <h3>Дизайнерські рішення</h3>
+             <div class="section-widget__box">
+              <h3 class="wrapper--desc section-widget__desc">Дизайнерські рішення</h3>
             </div>
           </li>
         </ul>

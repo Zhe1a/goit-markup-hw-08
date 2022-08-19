@@ -1,0 +1,98 @@
+    <header class="line">
+      <div class="lines container ">
+        <nav class="linevs ule">
+       <a class="line_webstudio " href="#"
+        ><span class="line_webstudi ">Web</span>Studio</a>
+        <ul class="line_studioss  ule  rte">
+          <li class="line_studio line_studios linevss"><a href="">Студія</a></li>
+          <li class="line_studios linevss linvss"><a href="portfolio.html">Портфолія</a></li>
+          <li class="line_studios linevss linvss"><a href="">Контакти</a></li>
+        </ul>
+      </nav>
+      <ul class="line_mai ule rt  "> 
+        <li class="line_studios linevss linvss ">
+          <a class="leeer" href="mailto:info@devstudio.com">
+            <svg class="lerr" width="16" hight="12">
+            <use href="./photo/icons.svg/symbol-defs.svg#icon-Vector-24"/>
+          </svg>info@devstudio.com</a>
+        </li>
+        <li class="line_studios linevss linvss">
+          <a class="leeer" href="tel:+380961111111">
+            <svg class="ler" width="16" hight="12">
+            <use href="./photo/icons.svg/symbol-defs.svg#icon-envelope-hover"/>
+          </svg>+38 096 111 11 11</a>
+        </li>
+      </ul>
+    </header>
+  </div>
+
+  <section class="cap">
+    <div class="container">
+      <h1 class="cap_effektivnost">
+        ЕФЕКТИВНІ РІШЕННЯ ДЛЯ<br />ВАШОГО БІЗНЕСУ
+      </h1>
+      <button data-modal-open class="cap_zakazat" type="button">Замовити послугу</button>
+  </section>
+  <section class="ocobluv">
+    <div class="container">
+    <ul class="ocobluvi">
+      <li class="box">
+        <h3 class="osobennosti_warning">УВАГА ДО ДЕТАЛЕЙ</h3>
+        <p class="osobennosti_idea">
+          Ідейні міркування, і навіть початок <br />
+          повсякденної роботи з формування <br />
+          позиції.
+        </p>
+      </li>
+      
+      <li class="box">
+        <h3 class="osobennosti_warning ">ПУНКТУАЛЬНІСТЬ</h3>
+        <p class="osobennosti_idea">
+          Завдання організації, особливо рамки<br />
+          і місце навчання кадрів тягне у себе.
+        </p>
+      </li>
+      <li class="box">
+        <h3 class="osobennosti_warning">ПЛАНУВАННЯ</h3>
+        <p class="osobennosti_idea">
+          Так само консультація з широким <br />
+          активом значною мірою зумовлює.
+        </p>
+      </li>
+      <li class="box">
+        <h3 class="osobennosti_warning">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+        <p class="osobennosti_idea">
+          Значимість цих проблем настільки <br />
+          очевидна, що реалізація планових <br />
+          завдань.
+        </p>
+      </li>
+    </ul>
+  </div>
+  </section> </div>
+
+  <section class="what_w">
+    <div class="container">
+    <h3 class="what_we_do">Чим ми займаємося</h3>
+    <ul class="what_we">
+      <li class="what_we_do_q">
+        <img src="./photo/img1.jpg" alt="фото" width="370" height="294" />
+        <div class="whart">
+          <h3>Десктопні додатки</h3>
+        </div>
+      </li>
+      <li class="what_we_do_q">
+        <img src="./photo/img2.jpg" alt="фото" width="370" height="294" /> 
+        <div class="whart">
+          <h3>Мобільні додатки</h3>
+        </div>
+      </li>
+      <li class="what_we_do_q">
+        <img src="./photo/img3.jpg" alt="фото"width="370" height="294" />
+         <div class="whart">
+          <h3>Дизайнерські рішення</h3>
+        </div>
+      </li>
+    </ul>
+  </div>
+  </section>
