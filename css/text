@@ -96,3 +96,6 @@
     </ul>
   </div>
   </section>
+
+  .boxs>.che:hover >.che +.boxs , 
+.che:hover +.boxs,

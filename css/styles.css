@@ -588,6 +588,7 @@ fill: #2196F3;
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  position: relative;
   
 }
 .liy {
@@ -702,10 +703,13 @@ margin-bottom: 9px;
   display: flex;
   justify-content: center;
 }
+/* Підпишіться на розсилку */
 
-
+.text_n {
+ margin-left: 93px;
+}
 .text_n_m {
-  margin-left: 80px;
+  margin-bottom: 20px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -715,19 +719,15 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
 }
-.text_n {
-  position: absolute;
-   transform: translate(97%);
-   bottom: 33px;
-   display: flex;
+.text-n_e {
+  display: flex;
 }
 .text_n_ma {
- 
   display: flex;
 }
 .E-mal {
 padding: 10px 20px;
- 
+ display: flex;
   margin-right: 20px;
  color: #f5f4fa;
   display: flex;
@@ -738,15 +738,42 @@ padding: 10px 20px;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 }
+input::placeholder {
+  font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+align-items: center;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
 
+}
 .mail_e{
   display: flex;
 }
 .button_submit {
+  
+  border-radius: 3px;
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-family: 'Roboto';
+ font-size: 16px;
+ line-height: 1.8;
+ letter-spacing: 0.9px;
+ border: 0px;
+  color: #FFFFFF;
+  background: #2196f3;
+  padding: 10px 32px;
+
   justify-content: center;
 display: flex;
 }
+.button_submit:hover {
+  cursor: pointer;
+}
 .submit_text {
+  display: flex;
   margin-left: 10px;
  width: 24px;
  height: 24px;
@@ -980,12 +1007,24 @@ top: 50%;
   position: relative;
 }
 .form_inpu{
+  margin-top: 4px;
   transition-duration: 150ms;
   padding: 10px 30px;
   width: 448px;
 height: 120px;
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
+}
+
+textarea::placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: #757575;
+  
 }
 .conditions,
 .checkdox {
@@ -1026,8 +1065,7 @@ align-items: center;
   border: 2px solid #212121;
 }
 
-.boxs>.che:hover >.che +.boxs , 
-.che:hover +.boxs,
+
 .che:checked +.boxs {
   /* border: 2px solid #252525; */
   background-color: #2196F3;
@@ -1040,6 +1078,7 @@ align-items: center;
 
 
 .che {
+ 
   position: absolute;
   left: 60px;
   width: 10px;
