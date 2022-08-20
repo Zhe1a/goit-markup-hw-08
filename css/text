@@ -97,5 +97,308 @@
   </div>
   </section>
 
-  .boxs>.che:hover >.che +.boxs , 
-.che:hover +.boxs,
+  <!-- .boxs>.che:hover >.che +.boxs , 
+.che:hover +.boxs, -->
+
+
+<!-- наша команда  -->
+<section class="our_time ">
+  <div class="container">
+    <h3 class="our_times">Наша команда</h3>
+    <ul class="our_t">
+      <li class="our_timeq">
+        <img
+          src="photo/product_designer.jpg"
+          alt="фото"
+          width="270"
+          height="260">
+        <div class="ur_t"><h3 class="our_time_q">Ігор Дем'яненко</h3>
+          <p class="ur_time__r">Product Designer</p>
+          <ul class="our_teneqq">
+          <li class="our_temeqqq"><a  class="line_ins" href="" aria-label="Instagram">
+            <svg class="svg" width="30" hight="30">
+              <use href="./photo/icons.svg/symbol-defs.svg#icon-instagram-2-1"/>
+            </svg>
+          </a>
+        </li>
+          <li class="our_temeqqq">
+            <a  class="line_ins" href="" aria-label="Twitter"><svg class="svg" width="30" hight="30">
+              <use href="./photo/icons.svg/symbol-defs.svg#icon-twitter-1-1"/></svg>
+            </a>
+          </li>
+          <li class="our_temeqqq">
+            <a class="line_ins"  href="" aria-label="Facebook"><svg class="svg" width="30" hight="30">
+              <use href="./photo/icons.svg/symbol-defs.svg#icon-facebook-1-1"/>
+            </svg></a>
+          </li>
+          <li class="our_temeqqq">
+            <a class="line_ins"  href="" aria-label="Instagram"><svg class="svg" width="30" hight="30">
+              <use href="./photo/icons.svg/symbol-defs.svg#icon-linkedin-1-1"/>
+            </svg></a>
+          </li>
+         </ul>
+        </div>
+      </li>
+      <li class="our_timeq">
+        <img
+          src="./photo/frontend_developer.jpg"
+          alt="фото"
+          width="270"
+          height="260">
+        <div class="ur_t"> <h3 class="our_time_q">Ольга Рєпіна</h3>
+          <p class="ur_time__r">Frontend Developer</p>
+          <ul class="our_teneqq">
+            <li class="our_temeqqq"><a  class="line_ins" href="" aria-label="Instagram">
+              <svg class="svg" width="30" hight="30">
+                <use href="./photo/icons.svg/symbol-defs.svg#icon-instagram-2-1"/>
+              </svg>
+            </a>
+          </li>
+            <li class="our_temeqqq">
+              <a  class="line_ins" href="" aria-label="Twitter"><svg class="svg" width="30" hight="30">
+                <use href="./photo/icons.svg/symbol-defs.svg#icon-twitter-1-1"/></svg>
+              </a>
+            </li>
+            <li class="our_temeqqq">
+              <a class="line_ins"  href="" aria-label="Facebook"><svg class="svg" width="30" hight="30">
+                <use href="./photo/icons.svg/symbol-defs.svg#icon-facebook-1-1"/>
+              </svg></a>
+            </li>
+            <li class="our_temeqqq">
+              <a class="line_ins"  href="" aria-label="Instagram"><svg class="svg" width="30" hight="30">
+                <use href="./photo/icons.svg/symbol-defs.svg#icon-linkedin-1-1"/>
+              </svg></a>
+            </li>
+           </ul>
+          </div>
+      </li>
+      <li class="our_timeq">
+        <img
+          src="./photo/marketing.jpg"
+          alt="фото"
+          width="270"
+          height="260">
+        <div class="ur_t">  <h3 class="our_time_q">Микола Тарасов</h3>
+          <p class="ur_time__r">Marketing</p>
+          <ul class="our_teneqq">
+            <li class="our_temeqqq"><a  class="line_ins" href="" aria-label="Instagram">
+              <svg class="svg" width="30" hight="30">
+                <use href="./photo/icons.svg/symbol-defs.svg#icon-instagram-2-1"/>
+              </svg>
+            </a>
+          </li>
+            <li class="our_temeqqq">
+              <a  class="line_ins" href="" aria-label="Twitter"><svg class="svg" width="30" hight="30">
+                <use href="./photo/icons.svg/symbol-defs.svg#icon-twitter-1-1"/></svg>
+              </a>
+            </li>
+            <li class="our_temeqqq">
+              <a class="line_ins"  href="" aria-label="Facebook"><svg class="svg" width="30" hight="30">
+                <use href="./photo/icons.svg/symbol-defs.svg#icon-facebook-1-1"/>
+              </svg></a>
+            </li>
+            <li class="our_temeqqq">
+              <a class="line_ins"  href="" aria-label="Instagram"><svg class="svg" width="30" hight="30">
+                <use href="./photo/icons.svg/symbol-defs.svg#icon-linkedin-1-1"/>
+              </svg></a>
+            </li>
+           </ul></div>
+      </li>
+      <li class="our_timeq">
+        <img
+          src="./photo/ui_designer.jpg"
+          alt="фото"
+          width="270"
+          height="260">
+             <div class="ur_t"><h3 class="our_time_q">Михайло Єрмаков</h3>
+            <p class="ur_time__r">UI Designer</p>
+            <ul class="our_teneqq">
+              <li class="our_temeqqq"><a  class="line_ins" href="" aria-label="Instagram">
+                <svg class="svg" width="30" hight="30">
+                  <use href="./photo/icons.svg/symbol-defs.svg#icon-instagram-2-1"/>
+                </svg>
+              </a>
+            </li>
+              <li class="our_temeqqq">
+                <a  class="line_ins" href="" aria-label="Twitter"><svg class="svg" width="30" hight="30">
+                  <use href="./photo/icons.svg/symbol-defs.svg#icon-twitter-1-1"/></svg>
+                </a>
+              </li>
+              <li class="our_temeqqq">
+                <a class="line_ins"  href="" aria-label="Facebook"><svg class="svg" width="30" hight="30">
+                  <use href="./photo/icons.svg/symbol-defs.svg#icon-facebook-1-1"/>
+                </svg></a>
+              </li>
+              <li class="our_temeqqq">
+                <a class="line_ins"  href="" aria-label="Instagram"><svg class="svg" width="30" hight="30">
+                  <use href="./photo/icons.svg/symbol-defs.svg#icon-linkedin-1-1"/>
+                </svg></a>
+              </li>
+             </ul></div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- Постійні клієнти -->
+<section class="Regularustomers">
+  <div class="container">
+    <h2 class="customers">Постійні клієнти</h2>
+    <ul class="customer">
+    <li class="custome">
+      <div class="custom">
+        <a class="forr" href="">
+          <svg class="custon" width="41" hight="46.7">
+          <use href="./photo/icons.svg/symbol-defs.svg#icon-group-2-1">
+          </svg></a>
+      </div>
+    </li>
+    <li class="custome">
+      <div class="custom">
+        <a class="forr" href=""><svg class="custon" width="41" hight="52">
+          <use href="./photo/icons.svg/symbol-defs.svg#iconVect">
+          </svg></a>
+      </div>
+    </li>
+    <li class="custome">
+      <div class="custom">
+      <a class="forr" href=""><svg class="custon" width="43.46" hight="41.18">
+        <use href="./photo/icons.svg/symbol-defs.svg#iconV2">
+        </svg></a>
+    </div>
+  </li>
+    <li class="custome">  <div class="custom">
+      <a class="forr" href=""><svg class="custon" width="84.44" hight="40.26">
+        <use href="./photo/icons.svg/symbol-defs.svg#iconV">
+        </svg></a>
+    </div>
+  </li>
+    <li class="custome">  <div class="custom">
+      <a class="forr" href=""><svg class="custon" width="62.54" hight="45.43">
+        <use href="./photo/icons.svg/symbol-defs.svg#ico">
+        </svg></a>
+    </div>
+  </li>
+    <li class="custome"> <div class="custom">
+      <a class="forr" href=""><svg class="custon" width="93.79" hight="43.93">
+        <use href="./photo/icons.svg/symbol-defs.svg#icw">
+        </svg></a>
+    </div>
+  </li>
+  </ul>
+  </div>
+</section>
+<!-- фф -->
+.our_time {
+  background: #f5f4fa;
+ padding-top: 94px;
+  padding-bottom: 94px;
+  
+}
+
+.our_teneqq {
+  margin: 0;
+  padding: 0;
+  
+  justify-content: center;
+align-items: center;
+margin: 0;
+
+  display: flex;
+  list-style: none ;
+}
+.svg {
+  width: 20px;
+  height: 20px;
+}
+.our_teneqq .line_ins {
+  border-radius: 50%;
+  background-color: var(--white);
+  height: 44px;
+  width: 44px;
+display: flex;
+justify-content: center;
+align-items: center;
+ fill: #AFB1B8;;
+ transition-duration: 250ms;
+ 
+  
+}
+.our_temeqqq > .line_ins:hover ,
+.our_temeqqq > .line_ins:focus{
+  fill: #FFFFFF;;
+  background-color: #2196F3;
+  
+}
+.our_teneqq .our_temeqqq {
+  margin-right: 10px;
+ 
+}
+.our_teneqq .our_temeqqq:last-child {
+  margin-right: 0px;
+}
+.our_times {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-bottom: 50px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: #212121;
+}
+.our_time  .our_timeq {
+margin-right: 30px;
+
+}
+.our_t {
+  display: -webkit-box;
+}
+.our_t {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.our_time >.our_timeq {
+  display: inline-block;
+
+}
+.our_time .our_timeq:last-child{
+  margin-right: 0px;
+}
+.ur_t {
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+}
+.our_time_q {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.ur_time__r {
+  margin-top: 10px;
+  margin-bottom: 16px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18 ;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.our_time .our_timeq {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+}
