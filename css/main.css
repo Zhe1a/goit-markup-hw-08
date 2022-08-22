@@ -670,7 +670,7 @@ textarea {
   height: 24px;
 }
 
-.features {
+.body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -719,13 +719,13 @@ textarea {
 }
 
 /* features-menu */
-.features-menu {
+.body-menu {
   margin-bottom: 0;
   margin-top: 0;
   display: flex;
   flex-wrap: wrap;
 }
-.features-menu__list {
+.body-menu__list {
   margin-right: 30px;
   margin-top: 30px;
   width: 370px;
@@ -736,24 +736,24 @@ textarea {
   border: 1px solid #EEEEEE;
   transition-duration: 250ms;
 }
-.features-menu__list:hover, .features-menu__list:focus {
+.body-menu__list:hover, .body-menu__list:focus {
   border: 1px solid #EEEEEE;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.features-menu__list:nth-child(3n) {
+.body-menu__list:nth-child(3n) {
   margin-right: 0;
 }
-.features-menu__list:nth-child(-n+3) {
+.body-menu__list:nth-child(-n+3) {
   margin-top: 0px;
 }
-.features-menu__list:hover .features-menu__hidden {
+.body-menu__list:hover .body-menu__hidden {
   transform: translate(0);
 }
-.features-menu__slider {
+.body-menu__slider {
   overflow: hidden;
   position: relative;
 }
-.features-menu__hidden {
+.body-menu__hidden {
   transition-duration: 250ms;
   display: flex;
   justify-content: center;
@@ -766,7 +766,7 @@ textarea {
   background: rgba(33, 150, 243, 0.9);
   transform: translatey(100%);
 }
-.features-menu__excerpt {
+.body-menu__excerpt {
   padding-left: 24px;
   padding-right: 24px;
   font-family: "Roboto";
@@ -778,13 +778,13 @@ textarea {
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
-.features-menu__desc {
+.body-menu__desc {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 20px;
   padding-top: 20px;
 }
-.features-menu__title {
+.body-menu__title {
   margin-top: 0;
   margin-bottom: 0;
   margin-bottom: 4px;
@@ -796,7 +796,7 @@ textarea {
   letter-spacing: 0.06em;
   color: #212121;
 }
-.features-menu__text {
+.body-menu__text {
   margin-bottom: 0px;
   margin-top: 0px;
   padding-top: 0px;
