@@ -37,12 +37,7 @@
 
   &__link {
     display: flex;
-    font-family: "Roboto";
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
-    position: relative;
+    
   }
  
   
@@ -74,14 +69,17 @@
   fill: #2196F3;}
   
   &-menu__link {
+    justify-content: center;
     align-items: center;
   text-align: center;
     display: flex;
-  
+  // align-items: baseline;
     transition-duration: 250ms;
-    color: #212121;
+   
   }
+ 
   &-menu__svg {
+
    text-align: center;
     margin-right: 10px;
   width: 16px;

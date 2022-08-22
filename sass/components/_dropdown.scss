@@ -120,7 +120,7 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   }
-  &_textarea:hover,
+  &__textarea:hover,
   &__textarea:focus {
     border: 2px solid #2196F3;
   }
@@ -175,7 +175,7 @@
   &__button:checked +&__box {
     /* border: 2px solid #252525; */
     background-color: #2196F3;
-    background-image: url(../photo/icons.svg/Vector\ \(25\)\ \(1\).svg);
+    background-image: url(../photo/icons.svg/Vector.svg);
     fill: #ececec;
     border: none;
     background-size: contain;
@@ -200,5 +200,13 @@
   display: flex;
   text-align: center;
   justify-content: center;
+  
+  &__button{
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
   }
+}
  
