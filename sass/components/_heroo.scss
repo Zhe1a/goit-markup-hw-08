@@ -1,0 +1,25 @@
+.section-heroo {
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url(../photo/Hero.jpg);
+    background-size: cover;
+    background-color: #2f303a;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+   
+    &__titel {
+    margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 30px;
+    width: 692px;
+   height: 120px;
+   color: #FFFFFF;
+  }
+ &__button {
+    width: 216px;
+    height: 50px;
+    background: #2196f3;
+    padding: 10px 32px;
+  }
+}
+

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>Bootcamp31</title>
   </head>
   <body>
@@ -41,7 +41,7 @@
     <main>
     <section class="section-heroo">
       <div class="container">
-        <h1 class="section-heroo__titel">
+        <h1 class="section-heroo__titel caption--wrapper">
           ЕФЕКТИВНІ РІШЕННЯ ДЛЯ<br />ВАШОГО БІЗНЕСУ
         </h1>
         <button data-modal-open class="btn--wrapper section-heroo__button " type="button">Замовити послугу</button>
@@ -270,11 +270,11 @@
       </section>
       <section class="section-sidebar">
         <div class="container">
-          <h2 class="section-sidebar__title">Постійні клієнти</h2>
+          <h2 class="section-sidebar__title wrapper--subtitle">Постійні клієнти</h2>
           <ul class="section-sidebar__menu">
           <li class="section-sidebar__list">
             <div class="section-sidebar__box">
-              <a class="fosection-sidebar__link" href="">
+              <a class="section-sidebar__link" href="">
                 <svg class="section-sidebar__icon" width="41" hight="46.7">
                 <use href="./photo/icons.svg/symbol-defs.svg#icon-group-2-1">
                 </svg></a>
@@ -282,33 +282,33 @@
           </li>
           <li class="section-sidebar__list">
             <div class="section-sidebar__box">
-              <a class="fosection-sidebar__link" href=""><svg class="section-aside__icon" width="41" hight="52">
+              <a class="section-sidebar__link" href=""><svg class="section-aside__icon" width="41" hight="52">
                 <use href="./photo/icons.svg/symbol-defs.svg#iconVect">
                 </svg></a>
             </div>
           </li>
           <li class="section-sidebar__list">
             <div class="section-sidebar__box">
-            <a class="fosection-sidebar__link" href=""><svg class="section-aside__icon" width="43.46" hight="41.18">
+            <a class="section-sidebar__link" href=""><svg class="section-aside__icon" width="43.46" hight="41.18">
               <use href="./photo/icons.svg/symbol-defs.svg#iconV2">
               </svg></a>
           </div>
         </li>
           <li class="section-sidebar__list"> 
             <div class="section-sidebar__box">
-            <a class="fosection-sidebar__link" href=""><svg class="section-aside__icon" width="84.44" hight="40.26">
+            <a class="section-sidebar__link" href=""><svg class="section-aside__icon" width="84.44" hight="40.26">
               <use href="./photo/icons.svg/symbol-defs.svg#iconV">
               </svg></a>
           </div>
         </li>
           <li class="section-sidebar__list">  <div class="section-sidebar__box">
-            <a class="fosection-sidebar__link" href=""><svg class="section-aside__icon" width="62.54" hight="45.43">
+            <a class="section-sidebar__link" href=""><svg class="section-aside__icon" width="62.54" hight="45.43">
               <use href="./photo/icons.svg/symbol-defs.svg#ico">
               </svg></a>
           </div>
         </li>
           <li class="section-sidebar__list"> <div class="section-sidebar__box">
-            <a class="fosection-sidebar__link" href=""><svg class="section-aside__icon" width="93.79" hight="43.93">
+            <a class="section-sidebar__link" href=""><svg class="section-aside__icon" width="93.79" hight="43.93">
               <use href="./photo/icons.svg/symbol-defs.svg#icw">
               </svg></a>
           </div>
@@ -369,13 +369,13 @@
         </div>
     
         <div class="container-modal">
-          <h3 class="container-modal__title">Підпишіться на розсилку</h3>
+          <h3 class="container-modal__title wrapper--desc">Підпишіться на розсилку</h3>
           <div class="container-modal__grid">
           <form class="container-modal__inner" action="">
             <input class="container-modal__text" placeholder="E-mail"id="emaills" >
           </form>
           <button class="container-modal__button" type="submit"  for="tttr">
-            <span class="container-modal__tagline"></span> Підписатися
+            <span class="btn--wrapper"></span> Підписатися
           <svg class="container-modal__icon" widft="24"height="24"><use href="./photo/icons.svg/symbol-defs.svg#telegh"></use>
           </svg>
         </button> 
@@ -385,54 +385,56 @@
       </div>
         </footer>
 
-
-    
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-<form class="form  js-speaker-from">
-  <h2 class="tessstt">Залиште свої дані, ми вам передзвонимо</h2>
-  <div class="form_ledel">
-      <lebel class="form_led" for="name">Ім'я</lebel>
-      <div class="form_1">
-  <input class="form_input" type="text" id="name"/>
-  <svg class="form_svg" whidf="14" height="14">
-    <use href="./photo/icons.svg/symbol-defs.svg#name"/>
-  </svg>
-</div>
-</div>
-<div class="form_ledel">
-  <label class="form_led" for="tel">Телефон</label>
-  <div class="form_1"> <input class="form_input" type="tel" id="tel"/>
-    <svg class="form_svg" whidf="14" height="14">
-      <use href="./photo/icons.svg/symbol-defs.svg#telefon"/>
-    </svg>
-  </div>
-  
-</div>
-<div class="form_ledel">
- <label class="form_led" for="email">Пошта</label>
- <div class="form_1">
-<input  class="form_input"type="email" id="email"/>
-  <svg class="form_svg" whidf="14" height="14">
-    <use href="./photo/icons.svg/symbol-defs.svg#mail"/>
-  </svg></div>
-</div>
-<div class="form_ledel" role="group">
-  <label class="form_led" for="text">Коментар</label>
-  <textarea  class="form_inpu"name="coment" id="coment" placeholder="Введіть текст"></textarea>
-</div>
-<div class="checkdo">
-  <input class="che" type="checkbox" id="kok" name="checkdox"><span class="boxs"></span>
-  <label class="checkdox" type="checkbox" for="kok">Погоджуюся з розсилкою та приймаю</label><button class="conditions">Умови договору</button>
-</div><div class="cap_zakaza">
-  <button class="button_submit" type="submit" >Відправити</button>
-</div>
-</form>
-      <button data-modal-close type="button" class="modal_button">
-        <svg class="modal_svg" widht="20" height="20"><use href="./photo/icons.svg/symbol-defs.svg#x"/></svg>
-      </button>
-    </div>
-  </div>
-    <script src="./js/modal.js"></script>
+        <div class="backdrop is-hidden" data-modal>
+          <div class="backdrop-box">
+      <form class="features">
+      <h2 class="features-title">Залиште свої дані, ми вам передзвонимо</h2>
+      <div class="features-box">
+          <lebel class="features-box__subtitle" for="name">Ім'я</lebel>
+          <div class="features-box__wrap">
+      <input class="features-box__button" type="text" id="name"/>
+      <svg class="features-box__ico" whidf="14" height="14">
+        <use href="./photo/icons.svg/symbol-defs.svg#name"/>
+      </svg>
+      </div>
+      </div>
+      <div class="features-box">
+      <label class="features-box__subtitle" for="tel">Телефон</label>
+      <div class="features-box__wrap"> 
+        <input class="features-box__button" type="tel" id="tel"/>
+        <svg class="features-box__ico" whidf="14" height="14">
+          <use href="./photo/icons.svg/symbol-defs.svg#telefon"/>
+        </svg>
+      </div>
+      </div>
+      <div class="features-box">
+      <label class="features-box__subtitle" for="email">Пошта</label>
+      <div class="features-box__wrap">
+      <input  class="features-box__button"type="email" id="email"/>
+      <svg class="features-box__ico" whidf="14" height="14">
+        <use href="./photo/icons.svg/symbol-defs.svg#mail"/>
+      </svg></div>
+      </div>
+      <div class="features-box" role="group">
+      <label class="features-box__subtitle" for="text">Коментар</label>
+      <textarea  class="features-box__textarea"name="coment" id="coment" placeholder="Введіть текст"></textarea>
+      </div>
+      <div class="features-button">
+        <input class="features-button__button" type="checkbox" id="kok" name="checkdox">
+        <span class="features-button__box"></span>
+        <label class="features-button__text wrapper--text" type="checkbox" for="kok">Погоджуюся з розсилкою та приймаю</label>
+        <button class="features-button__all wrapper--text">Умови договору</button>
+      </div>
+      <div class="features-container">
+      <button class="features-container__button container-modal__button"  type="submit" >Відправити</button>
+      </div>
+      </form>
+      
+          <button class="backdrop-box__button" data-modal-close type="button" >
+            <svg class="backdrop-box__ico" widht="20" height="20"><use href="./photo/icons.svg/symbol-defs.svg#x"/></svg>
+          </button>
+        </div>
+      </div>
+        <script src="./js/modal.js"></script>
   </body>
 </html>

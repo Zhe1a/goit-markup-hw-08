@@ -1,8 +1,8 @@
 (() =>{
     
     document
-    .querySelector(".js-speaker-from")
-    .addEventListener("submit", (e) => {
+    .querySelector(".js-speaker-from");
+    addEventListener("submit", (e) => {
     e.preventDefault();
 
     new FormData(e.currentTarget).forEach((value, name) =>
@@ -12,12 +12,15 @@
 
     });
 
-    document.querySelector(".comment").addEventListener("input", (e) => {
+    document.querySelector(".comment");
+     addEventListener("input", (e) => {
         console.log(e.target.value);
         if (e.target.value !== "") {
-        document.querySelector(".from-btn").removeAttribute("disabled");
+        document.querySelector(".from-btn");
+        removeAttribute("disabled", true);
         } else {
-            document.querySelector(".from-btn").setAttribute("disabled", true);
+            document.querySelector(".from-btn");
+            setAttribute("disabled", true);
         }
     });
     })();
