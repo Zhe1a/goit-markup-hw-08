@@ -16,6 +16,40 @@
         <nav class="header-nav">
        <a class="header-nav__link" href="#"
         ><span class="header-nav__span">Web</span>Studio</a>
+        <div class="module">
+           <button aria-controls="module-menu" type="button" class="module-button is-open"  data-menu-button>
+          <svg 
+          width="40" 
+          height="40"
+          aria-label="перемикач">
+            <use class="mobule-button__closs" href="./photo/icons.svg/symbol-defs.svg#closs"></use>
+          <use class="mobule-button__openn" href="./photo/icons.svg/symbol-defs.svg#openn" ></use>
+        </svg>
+      </button>
+        <div data-menu class="module-box id="module-menu>
+          <ul class="header-module">
+            <li class="header-module__item header-list "><a class="header-module__link header-module__activ " href="">Студія</a></li>
+            <li class="header-module__item"><a class="header-module__link " href="portfolio.html">Портфолія</a></li>
+            <li class="header-module__item"><a class="header-module__link " href="">Контакти</a></li>
+          </ul>
+        
+        <ul class="header-module"> 
+          <li class="header-module__item">
+            <a class="header-module__link header-module__activ " href="tel:+380961111111">
+       +38 096 111 11 11</a></li>
+          <li class="header-module__item">
+            <a class="header-module__lin  " href="mailto:info@devstudio.com">
+            info@devstudio.com</a>
+          </li>
+          <ul class="header-module"> 
+        <li class="header-module__ico"><a href="">Instagram</a></li>
+        <li class="header-module__ico"><a href="Twitter">Twitter</a></li>
+        <li class="header-module__ico"><a href="Facebook">Facebook</a></li>
+        <li class="header-module__ico"><a href="">LinkedIn</a></li>
+        
+       </ul></div>
+        
+        </div>
         <ul class="header-menu">
           <li class="header-menu__item header-menu__item_activ header-list "><a class="header-menu__link header--wrapper " href="">Студія</a></li>
           <li class="header-menu__item"><a class="header-menu__link header--wrapper header-list" href="portfolio.html">Портфолія</a></li>
@@ -116,8 +150,10 @@
           <h3 class="section-aside__title">Наша команда</h3>
           <ul class="section-aside__menu">
             <li class="section-aside__list">
-              <img
-                src="photo/product_designer.jpg"
+              <img class="section-aside__img"
+              srcset="./photo/product_2x.jpg 380w ,
+              ./photo/product_designer.jpg 1200w"
+                src="./photo/product_2x.jpg 380w"
                 alt="фото"
                 width="270"
                 height="">
@@ -154,11 +190,13 @@
               </div>
             </li>
             <li class="section-aside__list">
-              <img
-                src="./photo/frontend_developer.jpg"
+              <img class="section-aside__img"
+              srcset="./photo/frontend_2x.jpg 380w ,
+              ./photo/frontend_developer.jpg 1200w"
+                src="./photo/frontend_2x.jpg 380w "
                 alt="фото"
-                width="270"
-                height="260">
+                width=""
+                height="">
               <div class="section-aside__box"> <h3 class="section-aside__subtitle">Ольга Рєпіна</h3>
                 <p class="section-aside__text">Frontend Developer</p>
                 <ul class="section-aside__items">
@@ -191,11 +229,13 @@
                 </div>
             </li>
             <li class="section-aside__list">
-              <img
-                src="./photo/marketing.jpg"
+              <img class="section-aside__img"
+              srcset="./photo/marketing_2x.jpg 380w ,
+              ./photo/marketing.jpg 1200w"
+                src="./photo/marketing_2x.jpg 380w"
                 alt="фото"
-                width="270"
-                height="260">
+                width=""
+                height="">
               <div class="section-aside__box">  <h3 class="section-aside__subtitle">Микола Тарасов</h3>
                 <p class="section-aside__text">Marketing</p>
                 <ul class="section-aside__items">
@@ -228,11 +268,13 @@
                 </div>
             </li>
             <li class="section-aside__list">
-              <img
-                src="./photo/ui_designer.jpg"
+              <img class="section-aside__img"
+              srcset="./photo/ui_designe_2x.jpg 380w ,
+              ./photo/ui_designer.jpg 1200w"
+                src="./photo/ui_designe_2x.jpg 380w"
                 alt="фото"
-                width="270"
-                height="260">
+                width=""
+                height="">
                    <div class="section-aside__box"><h3 class="section-aside__subtitle">Михайло Єрмаков</h3>
                   <p class="section-aside__text">UI Designer</p>
                   <ul class="section-aside__items">
@@ -375,9 +417,10 @@
             <input class="container-modal__text" placeholder="E-mail"id="emaills" >
           </form>
           <button class="container-modal__button btn--wrapper" type="submit"  for="tttr">
+            <div class="container-modal__span">
             <span class="btn--wrapper"></span> Підписатися
           <svg class="container-modal__icon" widft="24"height="24"><use href="./photo/icons.svg/symbol-defs.svg#telegh"></use>
-          </svg>
+          </svg></div>
         </button> 
       </div>
         </div>
@@ -422,8 +465,8 @@
       <div class="features-button">
         <input class="features-button__button" type="checkbox" id="kok" name="checkdox">
         <span class="features-button__box"></span>
-        <label class="features-button__text wrapper--text" type="checkbox" for="kok">Погоджуюся з розсилкою та приймаю</label>
-        <button class="features-button__all wrapper--text">Умови договору</button>
+        <label class="features-button__text" type="checkbox" for="kok">Погоджуюся з розсилкою та приймаю</label>
+        <button class="features-button__all">Умови договору</button>
       </div>
       <div class="features-container">
       <button class="features-container__button  btn--wrapper"  type="submit" >Відправити</button>
@@ -435,6 +478,7 @@
           </button>
         </div>
       </div>
+      <script defer src="./js/module.js"></script>
         <script src="./js/modal.js"></script>
   </body>
 </html>

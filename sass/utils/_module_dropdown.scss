@@ -1,0 +1,221 @@
+.backdrop {
+ 
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    visibility: visible;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .is-hidden {
+    
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+   }
+   .backdrop .is-hidden .backdrop-box {
+    transform: translate(-50% ,-50%) scale(0.9);
+   }
+  .backdrop-box {
+    
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(1);
+    width: 460px;
+  height: 609px;
+    background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  
+  &__button {
+    transition-duration: 250ms;
+    cursor: pointer;
+    display: block;
+   position: absolute;
+  right: 8px;
+  top: 8px;
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+  }
+  &__button:hover,
+  &__button:focus {
+    fill: #2196f3;
+  }
+  &__ico {
+    width: 11px;
+  height: 11px;
+  }
+}
+  /* features */
+  
+  .features {
+    padding: 40px;
+  }
+  .features-title {
+    margin-bottom: 12px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  }
+  .features-box {
+    position: relative;
+   margin-top: 10px;
+  
+  &__subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: #757575;
+    
+  }
+  &__wrap {
+    position: relative;
+  }
+  &__button {
+    margin-top: 4px;
+   padding: 10px 30px;
+   display: flex; 
+    width:370px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  transition-duration: 150ms;
+  }
+  &__button:hover ,
+  &_button:focus,
+  &__button:active {
+    border:2px solid #2196F3;
+  }
+  &__button:hover + .features-box__ico,
+  &__button:focus-visible + .features-box__ico{
+    fill: #2196F3;
+  }
+  &__ico {
+    position: absolute;
+  width: 15px;
+  height: 13px;
+  transform: translatey(-50%);
+  left: 12px;
+  top: 50%;
+  }
+  &__textarea {
+    margin-top: 4px;
+    transition-duration: 150ms;
+    padding: 10px 30px;
+    width: 370px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  }
+  &__textarea:hover,
+  &__textarea:focus {
+    border: 2px solid #2196F3;
+  }
+  textarea::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: #757575;
+  }
+}
+  /* features-button */
+  .features-button {
+    align-items: baseline;
+    display: flex;
+      margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+ 
+    &__text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 0.4px;
+        letter-spacing: 0.03em;
+    display: flex;
+    position: relative;
+    color: #757575;
+   
+  }
+  &__all {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 0.4px;
+    letter-spacing: 0.03em;
+    display: flex;
+    cursor: pointer;
+    color: #2196f3;
+   background-color: transparent;
+   border: none;
+  text-decoration: underline;
+  }
+
+  &__box {
+    display: flex;
+  
+    background-repeat: no-repeat;
+   transition-duration: 250ms;
+    margin-right: 7px;
+    width: 16px;
+    height: 15px;
+    border: 2px solid #212121;
+  }
+  
+  
+  &__button:checked +&__box {
+    /* border: 2px solid #252525; */
+    background-color: #2196F3;
+    background-image: url(../photo/icons.svg/Vector.svg);
+    fill: #ececec;
+    border: none;
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+  }
+  
+  
+  &__button {
+   
+    position: absolute;
+    left: 59px;
+    width: 10px;
+    height: 10px;
+    transition-duration: 250ms;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+  }
+}
+  .features-container {
+    margin-top: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+  &__button{
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+  }
+}
