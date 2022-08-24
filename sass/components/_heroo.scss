@@ -52,8 +52,9 @@
  
 }
 
-@media  screen and (max-width: 480px) {
+@media  screen and (min-width: 480px)and (max-width: 767px) {
   .section-heroo {
+    width: 100%;
     text-align: center;
     justify-content: center;
     background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url(/photo/Header_2x_img.jpg);
