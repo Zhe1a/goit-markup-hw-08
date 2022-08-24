@@ -47,28 +47,26 @@
       .footer-tablet {
         align-items: baseline;
         display: flex;
+        justify-content: space-around;
       }
         .footer {
-   
+          justify-content: center;
           &-inner {
-           
+            display: block;
+           justify-content: center;
             text-align: center;
             }
         }
         .holder-socials {
-         margin-left: auto;
-         
-        
           &__title {
             text-align: center;
+            
           }
         
           &__item {
-            
             margin-right: 10px;
             border-radius: 50%;
             background-color: #3b3d3f;
-            justify-content: space-around;
             }
         }
         .container-modal {

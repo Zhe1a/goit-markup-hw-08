@@ -409,10 +409,20 @@ textarea {
     border-bottom: 1px solid #ececec;
   }
   .header > .container {
-    display: flex;
+    display: inline-flex;
+    align-items: center;
   }
   .header-nav, .header-menu {
     display: flex;
+  }
+  .header-nav:nth-child(2), .header-menu:nth-child(2) {
+    font-size: 12px;
+    line-height: 1.4px;
+    letter-spacing: 0.02em;
+  }
+  .header-nav:nth-child(2) __item:first-child, .header-menu:nth-child(2) __item:first-child {
+    margin-bottom: 2px;
+    margin-right: 0;
   }
   .header-nav__link {
     margin-right: 68px;
@@ -431,19 +441,22 @@ textarea {
   }
   .header-menu {
     align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
     margin-top: 0;
     margin-bottom: 0;
     display: flex;
+  }
+  .header-menu__item:nth-child(1) {
+    margin-right: 30px;
   }
   .header-menu:nth-child(2) {
     display: block;
     margin-left: auto;
   }
-  .header-menu__item:nth-child(2) {
-    margin-left: 30px;
+  .header-menu__item {
     margin-right: 30px;
+  }
+  .header-menu__link {
+    display: block;
   }
   .header-menu:last-child {
     color: #757575;
@@ -469,14 +482,11 @@ textarea {
     fill: #2196F3;
   }
   .header-menu__link {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     display: flex;
     transition-duration: 250ms;
   }
   .header-menu__svg {
-    text-align: center;
+    display: block;
     margin-right: 10px;
     width: 16px;
     height: 16px;
@@ -491,12 +501,8 @@ textarea {
     height: 4px;
     background-color: #2196F3;
     left: 0;
-    bottom: -41px;
+    bottom: -34px;
     border-radius: 2px;
-  }
-  .header-menu__module {
-    margin-left: 0;
-    margin-right: 0;
   }
 }
 /* <!-- Шапка --> */
@@ -713,7 +719,7 @@ textarea {
     height: 120px;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .section-heroo {
     text-align: center;
     justify-content: center;
@@ -1241,12 +1247,15 @@ textarea {
   .footer-tablet {
     align-items: baseline;
     display: flex;
+    justify-content: space-around;
+  }
+  .footer {
+    justify-content: center;
   }
   .footer-inner {
+    display: block;
+    justify-content: center;
     text-align: center;
-  }
-  .holder-socials {
-    margin-left: auto;
   }
   .holder-socials__title {
     text-align: center;
@@ -1255,7 +1264,6 @@ textarea {
     margin-right: 10px;
     border-radius: 50%;
     background-color: #3b3d3f;
-    justify-content: space-around;
   }
   .container-modal {
     margin-top: 60px;
