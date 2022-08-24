@@ -1,31 +1,34 @@
-@media screen and(min-width: 480px)and(max-width: 760px) {
+@media screen and(min-width: 480px)and(max-width: 767px) {
+ @import "./portfolio_module";
+  
 @import "./module_dropdown";
   .header-menu__svg {
     display: none;
   }
-
+ 
+  
 
   .module {
 margin-left: auto;
-overflow: hidden;
+
 
   }
   .module-button {
-  
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
     margin: 0;
     padding: 0;
     border: none;
     background-color: transparent;
-    
+   
     z-index: 10;
    }
   .module-box {
     display: none;
-   
+  
       &.is-open {
-       overflow: visible;
+        overflow: hidden;
+
         z-index: 2;
       display: flex;
       flex-direction: column;
@@ -37,7 +40,6 @@ overflow: hidden;
      height: 100%;
       background-color: #FFFFFF;
       padding: 40px;
-
     }
   }
 .header-module:last-child {
@@ -45,7 +47,7 @@ overflow: hidden;
    
   }
 .header-module {
- 
+  
  &__item {
 margin-bottom: 32px;
 
@@ -85,10 +87,32 @@ color: #757575;
   color: #2196f3;
 }
 
-&__ico {
- display: block;
-  flex-direction: row;
+
 }
+.header-module__menu {
+
+display: flex;
+align-items: baseline;
+}
+
+.header-module__networks {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  
+  letter-spacing: 0.02em;
+  
+  color: #2196F3;
+  
+}
+.header-module__span {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 22px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  background-position: center;
 }
 .module-button .mobule-button__openn {
   display: none;
@@ -112,18 +136,14 @@ color: #757575;
       }
     .header {
       
-        &-nav ,
-        &-menu {
+        &-nav {
           padding-top: 16px;
           padding-bottom: 16px;
-          display: block;
-          } 
-          &-nav {
-          
-           display: flex;
+        display: flex;
+      
           }
         &-nav__link {
-          display: flex;
+        
             font-family: "Raleway";
             font-weight: 700;
             font-size: 26px;

@@ -1,23 +1,39 @@
-@media  screen and (min-width: 1200px) {
- 
-  .body {
-    padding-top: 94px;
-    padding-bottom: 94px;
+.body {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
-  
+  .body-menu__img {
+    width:450px;
+    height: 294px;
+  }
   /* pagination-menu */
   .pagination-menu {
     margin-right: 0px;
-    text-align: center;
+    display: flex;
+    
+    justify-content: flex-start;
+    flex-wrap: wrap;
     margin-top: 0;
     margin-bottom: 50px;
-    outline: none;
+   
  
  &__list {
-    margin-right: -4px;
-    padding-left: 0;
-    padding-right: -8;
-     display: inline;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    font-family: 'Roboto';
+    &:nth-child(4) {
+        margin-bottom: 0;
+    }
+    &:nth-child(5) {
+        margin-bottom: 0;
+    }
+   
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2.6px;
+    
+    text-align: center;
+    letter-spacing: 0.03em;
   }
   &__list >:hover,
   &__list >:focus {
@@ -28,53 +44,48 @@
   border-radius: 4px;
   }
   &__button {
+
+
     border-radius: 3px;
-    margin-top: 0;
-    margin-left: 0;
-    margin-bottom: 0;
-   margin-right: 8px;
+    
    padding-left: 25px;
    padding-right: 25px;
   padding-top: 6px;
   padding-bottom: 6px;
-
+    border-radius: 4px;
   border: 0px;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
+
   }
+
 }
   /* features-menu */
   
   .body-menu {
     margin-bottom: 0;
     margin-top: 0;
-    display: flex;
-    flex-wrap: wrap;
+   
   
   &__list {
-    margin-right: 30px;
-    margin-top: 30px;
+   margin-bottom: 30px;
     
-    width: 370px;
+    width: 450px;
    height: 404px;
-     list-style: none;
+     
      box-sizing: border-box;
      background: #FFFFFF;
      border: 1px solid #EEEEEE;
      transition-duration: 250ms;
+     &:last-child{
+        margin-bottom: 0px;
+     }
   }
   &__list:hover,
   &__list:focus {
-   
     border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   }
-  &__list:nth-child(3n) {
-    margin-right: 0;
-    }
-    &__list:nth-child(-n + 3) {
-      margin-top: 0px;
-    }
+
     &__list:hover &__hidden {
       transform: translate(0);
     }
@@ -104,5 +115,4 @@
   }
 
  
-}
 }

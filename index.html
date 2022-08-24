@@ -16,8 +16,8 @@
         <nav class="header-nav">
        <a class="header-nav__link" href="#"
         ><span class="header-nav__span">Web</span>Studio</a>
-        <div class="module">
-           <button aria-controls="module-menu" type="button" class="module-button is-open"  data-menu-button>
+        <div class="module" >
+           <button aria-controls="module-menu" type="button" class="module-button is-open" id="spb-1" data-menu-button>
           <svg 
           width="40" 
           height="40"
@@ -26,8 +26,9 @@
           <use class="mobule-button__openn" href="./photo/icons.svg/symbol-defs.svg#openn" ></use>
         </svg>
       </button>
-        <div data-menu class="module-box id="module-menu>
-          <ul class="header-module">
+        <div data-menu class="module-box id="module-menu  >
+          <ul class="header-module"  id="spb-2"
+         >
             <li class="header-module__item header-list "><a class="header-module__link header-module__activ " href="">Студія</a></li>
             <li class="header-module__item"><a class="header-module__link " href="portfolio.html">Портфолія</a></li>
             <li class="header-module__item"><a class="header-module__link " href="">Контакти</a></li>
@@ -41,11 +42,11 @@
             <a class="header-module__lin  " href="mailto:info@devstudio.com">
             info@devstudio.com</a>
           </li>
-          <ul class="header-module"> 
-        <li class="header-module__ico"><a href="">Instagram</a></li>
-        <li class="header-module__ico"><a href="Twitter">Twitter</a></li>
-        <li class="header-module__ico"><a href="Facebook">Facebook</a></li>
-        <li class="header-module__ico"><a href="">LinkedIn</a></li>
+          <ul class="header-module__menu"> 
+        <li class="header-module__ico"><a class="header-module__networks"href="">Instagram</a></li>
+        <li class="header-module__ico"><span class="header-module__span"></span><a  class="header-module__networks"href="Twitter">Twitter</a></li>
+        <li class="header-module__ico"><span class="header-module__span"></span><a class="header-module__networks" href="Facebook">Facebook</a></li>
+        <li class="header-module__ico"><span class="header-module__span"></span><a  class="header-module__networks"href="">LinkedIn</a></li>
         
        </ul></div>
         
@@ -478,6 +479,7 @@
           </button>
         </div>
       </div>
+      <script src="./js/overflow.js" ></script>
       <script defer src="./js/module.js"></script>
         <script src="./js/modal.js"></script>
   </body>
