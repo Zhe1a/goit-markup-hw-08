@@ -1,24 +1,96 @@
-@media  screen and (min-width: 1200px) {
- 
-  .body {
-    padding-top: 94px;
-    padding-bottom: 94px;
+
+   @media  screen and (min-width: 1200px) {
+    .body {
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }
+    .pagination-menu {
+      margin-right: 0px;
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 50px;
+      outline: none;
+      &__list {
+        margin-right: -4px;
+        padding-left: 0;
+        padding-right: -8;
+         display: inline;
+      }
+    }
+    .body-menu {
+     
+      display: flex;
+      flex-wrap: wrap;
+      &__list {
+        margin-right: 30px;
+        margin-top: 30px;
+        
+        width: 370px;
+       height: 404px;
+      }
+      &__list:nth-child(3n) {
+        margin-right: 0;
+        }
+        &__list:nth-child(-n + 3) {
+          margin-top: 0px;
+        }
+    }  
   }
+  
+     
+      @media  screen and (min-width:768px)and(max-width: 1199px) {
+        .body {
+          padding-top: 60px;
+          padding-bottom: 60px;
+         
+        }
+        .pagination-menu {
+          margin-right: 0px;
+          text-align: center;
+          margin-top: 0;
+          margin-bottom: 50px;
+          outline: none;
+          &__list {
+            margin-right: -4px;
+            padding-left: 0;
+            padding-right: -8;
+            display: inline;
+          }
+        }
+        .body-menu {
+          display: flex;
+          flex-wrap: wrap;
+       
+          &__list {
+         
+          margin-right: 30px;
+          margin-bottom: 30px;
+            margin-top: 30px;
+            width: 354px;
+           height: 440px;
+           &:nth-child(2n) {
+            margin-right: 0;
+           }
+           &:nth-child(9) {
+            margin-bottom: 0;
+           }
+          }
+          }
+        
+                
+        } 
+       
+    
+ 
   
   /* pagination-menu */
   .pagination-menu {
     margin-right: 0px;
-    text-align: center;
     margin-top: 0;
     margin-bottom: 50px;
-    outline: none;
+   
  
- &__list {
-    margin-right: -4px;
-    padding-left: 0;
-    padding-right: -8;
-     display: inline;
-  }
+
   &__list >:hover,
   &__list >:focus {
     border: 0px;
@@ -48,15 +120,10 @@
   .body-menu {
     margin-bottom: 0;
     margin-top: 0;
-    display: flex;
-    flex-wrap: wrap;
+   
   
   &__list {
-    margin-right: 30px;
-    margin-top: 30px;
-    
-    width: 370px;
-   height: 404px;
+   
      list-style: none;
      box-sizing: border-box;
      background: #FFFFFF;
@@ -69,12 +136,7 @@
     border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   }
-  &__list:nth-child(3n) {
-    margin-right: 0;
-    }
-    &__list:nth-child(-n + 3) {
-      margin-top: 0px;
-    }
+ 
     &__list:hover &__hidden {
       transform: translate(0);
     }
@@ -104,5 +166,4 @@
   }
 
  
-}
 }

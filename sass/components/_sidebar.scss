@@ -1,33 +1,95 @@
 @media  screen and (min-width: 1200px) {
- 
-.section-sidebar {
+  .section-sidebar {
     padding-top: 94px;
     padding-bottom: 94px;
-  
-    
-   
-    
+    &__menu  {
+      display: flex;
+    }
+    &__list {
+      margin-right: 30px;
+    }
+    &__list:last-child {
+      margin-right: 0px;
+    }
+    &__link {
+      width: 170px;
+      height: 92px;
+    }
+}
+}
 
+   
+    @media  screen and (min-width: 768px)and (max-width: 1199px) {
+      .section-sidebar {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        &__menu  {
+          display: -webkit-box;
+        }
+        &__list {
+          display: inline-table;
+          margin-right: 30px;
+          margin-bottom: 30px;
+          &:nth-last-child(-n+3) {
+            margin-bottom: 0;
+          }
+        }
+        &__list:nth-child(3) {
+          margin-right: 0px;
+        }
+        &__list:nth-child(6) {
+          margin-right: 0px;
+        }
+        &__link {
+          width: 226px;
+          height: 92px;
+        }
+      }
+     }
+     @media  screen and (min-width: 480px)and (max-width: 767px) {
+      .section-sidebar {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        &__menu  {
+          display: -webkit-box;
+        }
+        &__link {
+          width: 210px;
+          height: 92px;
+        }
+        &__list { 
+          text-align: center;
+          
+        display: inline-table;
+          margin-right: 30px;
+          margin-bottom: 30px;
+        }
+        &__list:nth-child(2n) {
+          margin-right: 0px;
+        }
+        &__list:nth-child(5) {
+          margin-bottom: 0px;
+        }
+        &__list:nth-child(6) {
+          margin-bottom: 0px;
+        }
+      }
+    }
+
+    .section-sidebar {
   &__title {
     color: #212121;
     text-align: center;
   }
   &__menu {
     margin-top: 50px;
-    display: flex;
+   
   }
-  &__list {
-    margin-right: 30px;
-  }
-  &__list:last-child {
-    margin-right: 0px;
-  }
+  
   &__box {
     display: flex;
   }
   &__link {
-    width: 170px;
-    height: 92px;
     fill: #AFB1B8;;
     background-color: var(--white);
     box-sizing: border-box;
@@ -47,5 +109,4 @@
     fill: #2196F3;
      border-radius: 4px;
     }
-}
 }

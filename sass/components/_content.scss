@@ -1,16 +1,15 @@
 @media  screen and (min-width: 1200px) {
- 
-.section-content{
-    padding-top: 94px;
-    padding-bottom: 118px;
   
+  .section-content{
+  padding-top: 94px;
+  padding-bottom: 118px;
   &__list {
   
     margin-bottom: 0;
     margin-top: 0;
     display: flex;
   }
- &__item {
+  &__item {
     width: 270px;
   }
   &__item::before {
@@ -22,6 +21,130 @@
    border-radius: 4px;
    margin-bottom: 30px;
   }
+  &__slogan {
+    width: 270px;
+    height: 16px;
+  }
+ &__text {
+    width: 270px;
+  height: 72px;
+  color: #757575;
+  }
+
+  &__list .section-content__item {
+    margin-right: 30px;
+}
+&__list .section-content__item:last-child  {
+    margin-right: 0px;
+}
+}
+}
+
+@media screen and(min-width: 768px)and(max-width: 1199px) {
+  
+  .section-content{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    &__list {
+      margin-bottom: 0;
+      margin-top: 0;
+      display: flex;
+      flex-wrap: wrap
+    }
+    &__item {
+      width: 354px;
+      margin-right: 20px;
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+    display: block;
+      
+    }
+    &__item::before {
+      content: "";
+      display: block;
+      width: 354px;
+     height: 120px;
+     background: #F5F4FA;
+     border-radius: 4px;
+     margin-bottom: 30px;
+    }
+    &__slogan {
+      width: 354px;
+      height: 16px;
+    }
+   &__text {
+    width: 354px;
+    height: 72px;
+    color: #757575;
+    }
+    br {
+      display: none;
+     }
+}
+
+
+}
+
+
+
+
+@media screen and(min-width: 480px)and(max-width: 767px){
+  .section-content{
+
+    br {
+      display: none;
+     }
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+ &__item {
+    width: 450px;
+    margin-bottom: 30px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__item::before {
+    content: "";
+    display: inline-block;
+   width: 450px;
+   height: 120px;
+   background: #F5F4FA;
+   border-radius: 4px;
+   margin-bottom: 30px;
+  }
+ 
+  &__slogan {
+    text-align: center;
+    width: 450px;
+    height: 16px;
+  }
+ &__text {
+  
+    width: 450px;
+  height: 50px;
+  color: #757575;
+  }
+}
+
+}
+
+
+
+
+.section-content{
+   
+  
+  &__list {
+  
+    margin-bottom: 0;
+    margin-top: 0;
+    
+  }
+
+
   &__slogan {
     margin-bottom: 10px;
   }
@@ -46,20 +169,5 @@
                 background-position: center;
                 background-image: url(../photo/icons.svg/astronaut.svg);}
   
-                &__list .section-content__item {
-                    margin-right: 30px;
-                }
-                &__list .section-content__item:last-child  {
-                    margin-right: 0px;
-                }
-  &__slogan {
-    width: 270px;
-    height: 16px;
-  }
- &__text {
-    width: 270px;
-  height: 72px;
-  color: #757575;
-  }
-}
+
 }
