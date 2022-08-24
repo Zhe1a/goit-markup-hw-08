@@ -1,4 +1,4 @@
-@media screen and(min-width: 480px)and(max-width: 767px) {
+@media  screen and (max-width: 480px) {
  @import "./portfolio_module";
   
 
@@ -126,9 +126,9 @@ align-items: baseline;
   display: none;
  
 }
-.header-module {
+// .header-module {
 
-}
+// }
 
     .header>.container {
         height: 60px;

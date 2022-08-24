@@ -4,6 +4,8 @@
     padding-bottom: 94px;
     &__menu  {
       display: flex;
+      
+        margin-top: 50px;
     }
     &__list {
       margin-right: 30px;
@@ -15,6 +17,13 @@
       width: 170px;
       height: 92px;
     }
+    &__title {
+      font-family: 'Roboto';
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.16;
+      letter-spacing: 0.03em;
+    }
 }
 }
 
@@ -25,6 +34,7 @@
         padding-bottom: 60px;
         &__menu  {
           display: -webkit-box;
+          margin-top: 30px;
         }
         &__list {
           display: inline-table;
@@ -44,14 +54,26 @@
           width: 226px;
           height: 92px;
         }
+        &__title { 
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 1.3;
+          text-align: center;
+          letter-spacing: 0.03em;
+        }
       }
      }
-     @media  screen and (min-width: 480px)and (max-width: 767px) {
+
+     
+     @media  screen and (max-width: 480px) {
       .section-sidebar {
         padding-top: 60px;
         padding-bottom: 60px;
         &__menu  {
           display: -webkit-box;
+          margin-top: 30px; ;
         }
         &__link {
           width: 210px;
@@ -73,6 +95,21 @@
         &__list:nth-child(6) {
           margin-bottom: 0px;
         }
+        &__title {
+          
+font-family: 'Roboto';
+
+font-weight: 700;
+font-size: 28px;
+line-height: 1.1;
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+
+        }
       }
     }
 
@@ -81,10 +118,7 @@
     color: #212121;
     text-align: center;
   }
-  &__menu {
-    margin-top: 50px;
-   
-  }
+ 
   
   &__box {
     display: flex;

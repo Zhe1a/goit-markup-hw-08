@@ -44,6 +44,9 @@
   
      
       @media  screen and (min-width: 768px)and (max-width: 1199px) {
+        .contebt {
+          
+        }
       .footer-tablet {
         align-items: baseline;
         display: flex;
@@ -87,7 +90,7 @@
     
         }
        }
-       @media  screen and (min-width: 480px)and (max-width: 767px) {
+       @media  screen and (max-width: 480px) {
         .footer {
           text-align: center;
         }
@@ -135,7 +138,7 @@
     background: #2f303a;
     padding-top: 60px;
     padding-bottom: 60px;
-    position: relative;
+  
 }
   
     .holder-socials {

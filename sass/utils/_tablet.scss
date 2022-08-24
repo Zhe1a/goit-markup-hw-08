@@ -10,18 +10,17 @@
 
     .header {
         border-bottom: 1px solid #ececec;;
-        // display: inline-block;
+       display: block;
       }
       .header>.container {
-      // display: flex; 
-      // display: inline-block;
-      display: inline-flex;
-      align-items: center;
+        display: flex;
+      
       }
       .header{
         &-nav ,
         &-menu {
-          // display: inline-block;
+
+        
         display: flex;
           &:nth-child(2) {
             font-size: 12px;
@@ -29,7 +28,7 @@
               letter-spacing: 0.02em;
           
            
-              &__item:first-child {
+              :first-child {
              margin-bottom: 2px;
               margin-right: 0;
              
@@ -37,8 +36,7 @@
           } 
           } 
         &-nav__link {
-       
-        display: flex;
+         margin-right: 88px;
             padding-top: 24px;
             padding-bottom: 25px;
             font-family: "Raleway";
@@ -53,19 +51,17 @@
       }
     
     &-menu {
-      align-items: center;
+      display: flex;
     
-        // padding-top: 32px;
-        // padding-bottom: 32px;
+      align-items: center;
+
         margin-top: 0;
         margin-bottom: 0; 
-        
-      display: flex;
-
-  
     
-    &:nth-child(2) {
-       display: block;
+    &:nth-child(2) { 
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: stretch;
         margin-left: auto;
     }
    
@@ -93,6 +89,12 @@
         line-height: 1.1;
         letter-spacing: 0.02em;
         position: relative;
+        margin-right: 30px;
+       
+          &:nth-child(3n) {
+            margin-right: 0;
+          }
+  
         
       }
     
@@ -105,20 +107,13 @@
       fill: #2196F3;}
       
       &-menu__link {
-        // justify-content: center;
-        // align-items: center;
-      // text-align: center;
         display: flex;
-      
         transition-duration: 250ms;
-       
       }
      
       &-menu__svg {
-    display: block;
-// display: flex;
-      //  text-align: center;
-        margin-right: 10px;
+display: flex;
+        margin-right: 10px !important;
       width: 16px;
       height: 16px;
       }
