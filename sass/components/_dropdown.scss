@@ -21,20 +21,29 @@
       }
     }
     .features-button {
-    
+      &__box {
+        display: flex;
+       
+        background-repeat: no-repeat;
+       transition-duration: 250ms;
+        margin-right: 7px;
+        width: 16px;
+        height: 15px;
+        border: 2px solid #212121;
+      }
 
       &__text {
-          font-weight: 400;
-          font-size: 20px;
-line-height: 1.4;
-          letter-spacing: 0.03em;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 2.4;
+        letter-spacing: 0.03em;
 
      
     }
     &__all {
       font-weight: 400;
-      font-size: 28px;
-      line-height: 1.4;
+      font-size: 14px;
+      line-height: 2.4;
       letter-spacing: 0.03em;
 
     }
@@ -64,6 +73,18 @@ line-height: 1.4;
   }
 
     .features-button {
+
+      &__box {
+        display: flex;
+       
+        background-repeat: no-repeat;
+       transition-duration: 250ms;
+        margin-right: 7px;
+        width: 16px;
+        height: 15px;
+        border: 2px solid #212121;
+      }
+
 
       &__text {
           font-weight: 400;
@@ -234,7 +255,7 @@ line-height: 1.4;
   .features-button {
     align-items: baseline;
     display: flex;
-      margin-top: 20px;
+    margin-top: 20px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -256,16 +277,7 @@ line-height: 1.4;
   text-decoration: underline;
   }
 
-  &__box {
-    display: flex;
-   
-    background-repeat: no-repeat;
-   transition-duration: 250ms;
-    margin-right: 7px;
-    width: 16px;
-    height: 15px;
-    border: 2px solid #212121;
-  }
+ 
   
   
   &__button:checked +&__box {
