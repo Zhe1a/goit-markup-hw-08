@@ -1,2 +1,2 @@
 # Bootcapm
-https://zhe1a.github.io/goit-markup-hw-07/
+https://zhe1a.github.io/goit-markup-hw-08/
