@@ -51,7 +51,42 @@
   }
  
 }
+@media  screen and (max-width: 480px) {
+  .section-heroo {
+    // width: 109%;
+    text-align: center;
+        justify-content: center;
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url(/photo/Header_2x_img.jpg);
+    background-size: cover;
+    background-color: #2f303a;
+    padding-top: 94px;
+    padding-bottom: 94px;
+   
+    
 
+      &__titel {
+       
+        align-items: center;
+        justify-content: center;
+        font-family: 'Roboto';
+        font-weight: 900;
+        font-size: 19px;
+        line-height: 1.8;
+        text-align: center;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+     color: #fcfcfc;
+     margin-bottom: 30px;
+    }
+   &__button {
+   
+    width: 170px;
+    height: 50px;
+      background: #2196f3;
+     
+    }
+  }
+}
 @media  screen and (min-width: 480px)and (max-width: 767px) {
   .section-heroo {
     width: 100%;

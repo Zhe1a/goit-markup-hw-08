@@ -21,28 +21,30 @@
       }
     }
     .features-button {
+    
 
       &__text {
           font-weight: 400;
-          font-size: 14px;
-line-height: 2.4;
+          font-size: 20px;
+line-height: 1.4;
           letter-spacing: 0.03em;
+
      
     }
     &__all {
       font-weight: 400;
-      font-size: 14px;
-      line-height: 2.4;
+      font-size: 28px;
+      line-height: 1.4;
       letter-spacing: 0.03em;
-  
+
     }
   }
 }
-     
+
       
        
 @media  screen and (min-width: 480px)and (max-width: 767px),
-        screen and(max-width: 768px)and(max-width: 1199px) {
+        screen and(min-width: 768px)and(max-width: 1199px) {
         
         .backdrop-box  {
           width: 460px;

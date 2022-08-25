@@ -87,20 +87,24 @@
   .section-aside {
   padding-top: 30px;
   padding-bottom: 30px;
+  &__menu {
+    justify-content: center;
+    text-align: center;
+  }
   &__title {
    margin-bottom: 30px;
    font-family: "Roboto";
    font-weight: 700;
-   font-size: 28px;
+   font-size: 25px;
    line-height: 1.8;
    letter-spacing: 0.05em;
   }
   &__img {
-   width:250px;
+   width: 270px;
  }
  &__list {
    margin-bottom: 20px;
-   width: 250px;
+   width: 270px;
    &:last-child {
      margin-bottom: 0;
    }
