@@ -6,19 +6,21 @@
    position: relative;
  
 
-   @media  screen and (min-width: 480px) {
-    width: 480px;
- 
-   }
-   @media  screen and (min-width: 320px)and (max-width: 480px) {
-    width: 320px;
+   @media  screen and (min-width: 320px)and (max-width: 479px) {
+    width: 350px;
     .section-widget {
         display: none;
     }
+    
     .header-menu {
         display: none;
       }
    }
+
+   @media  screen and (min-width: 480px) {
+    width: 480px;
+   }
+
 
    @media  screen and (min-width: 768px) {
     width: 768px
